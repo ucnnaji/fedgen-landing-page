@@ -112,7 +112,7 @@ function Home() {
                         <a href="https://www.linkedin.com/in/priscilla-ajayi/">
                             <img src={group4} alt="Priscilla Ajayi" className="team-icon" />
                         </a>
-                        <p className="role">Lead Software Engineer</p>
+                        <p className="role">Lead Software Developer</p>
                         <p className="name">Mrs Priscilla O. AJAYI</p>
 
                     </div>
