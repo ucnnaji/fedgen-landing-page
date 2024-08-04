@@ -131,7 +131,7 @@ function Home() {
                             <img src={group6} alt="Mr John" className="team-icon" />
                         </a>
                         <p className="role">System Engineering Intern</p>
-                        <p className="name">Mr John</p>
+                        <p className="name">John Wejin</p>
 
                     </div>
 

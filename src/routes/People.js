@@ -34,7 +34,7 @@ const contacts = [
   },
 
   {
-    name: 'Priscilla Ajayi',
+    name: 'Mrs Priscilla O. AJAYI',
     role: 'Lead Software Developer',
     email: 'janesmith@example.com',
     image: group4,
@@ -45,7 +45,7 @@ const contacts = [
 
   {
     name: 'Engr. (Mrs) Olubunmi F. Sweetwilliams ',
-    role: 'Lead System Engineer',
+    role: 'System Engineer',
     image: Sweets,
     infoLink: 'https://example.com/johndoe-info',
     googleLink: 'mailto:johndoe@example.com',
@@ -53,8 +53,8 @@ const contacts = [
   },
 
   {
-    name: 'Mr John',
-    role: 'System Admin Intern', 
+    name: 'John Wejin',
+    role: 'Software Engineering Intern', 
     email: 'janesmith@example.com',
     image: group6,
     linkedinLink: 'https://www.linkedin.com/in/john-wejin-431141112/',
