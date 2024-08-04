@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fedgen-landing-page/static/css/main.6fc1fe26.css",
-    "main.js": "/fedgen-landing-page/static/js/main.1a791607.js",
+    "main.js": "/fedgen-landing-page/static/js/main.a8f0053c.js",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
     "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.e7908cb8e7429e37513e.png",
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
@@ -22,10 +22,10 @@
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
     "main.6fc1fe26.css.map": "/fedgen-landing-page/static/css/main.6fc1fe26.css.map",
-    "main.1a791607.js.map": "/fedgen-landing-page/static/js/main.1a791607.js.map"
+    "main.a8f0053c.js.map": "/fedgen-landing-page/static/js/main.a8f0053c.js.map"
   },
   "entrypoints": [
     "static/css/main.6fc1fe26.css",
-    "static/js/main.1a791607.js"
+    "static/js/main.a8f0053c.js"
   ]
 }
