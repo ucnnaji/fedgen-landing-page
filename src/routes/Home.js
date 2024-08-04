@@ -9,8 +9,9 @@ import group6 from './group6.png';
 import group5 from './group5.jpeg';
 import group4 from './group4.jpeg';
 import group3 from './group3.png';
-import group2 from './group2.jpg';
+import group2 from './group2.jpeg';
 import group1 from './group1.png';
+import group7 from './group7.jpg';
 
 import aspmirlogo from './aspmir-logo.png';
 import capiclogo from './capic-logo.png';
@@ -20,6 +21,7 @@ import innaialogo from './innia-logo.png';
 import dstnlogo from './dstn-logo.png';
 import cealogo from './cea-logo.png';
 import oafdlogo from './oafd-logo.png';
+import { alignProperty } from '@mui/material/styles/cssUtils';
 
 
 function Home() {
@@ -85,55 +87,72 @@ function Home() {
 
             <div className="team-section">
                 <h1 className="team-subheading">Team members</h1>
-                <div className="team-container">
-                    <div className="team-member">
-                        <a href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117">
-                            <img src={group1} alt="Mrs. Sweetwilliams" className="team-icon" />
-                        </a>
-                        <p className="role">System Admin</p>
-                        <p className="name">Mrs. Sweetwilliams</p>
 
-                    </div>
-                    <div className="team-member">
+               
+                <div className="team-container">
+                    
+                <div className="team-member">
                         <a href="https://www.linkedin.com/in/emmanuel-adetiba-ph-d-bab79082/">
                             <img src={group2} alt="Engr Matthew Boladele" className="team-icon" />
                         </a>
                         <p className="role">Founding PI</p>
                         <p className="name">Prof. E. Adetiba</p>
-
                     </div>
+                    
+
                     <div className="team-member">
                         <a href="https://archive2.covenantuniversity.edu.ng/Profiles/Akanle-Matthew-Boladele">
                             <img src={group3} alt="Mr John" className="team-icon" />
                         </a>
-                        <p className="role">Lead System Admin</p>
-                        <p className="name">Engr M. Boladele</p>
+                        <p className="role">Lead System Engineer</p>
+                        <p className="name">Engr. Matthew Boladele AKANLE</p>
 
                     </div>
                     <div className="team-member">
                         <a href="https://www.linkedin.com/in/priscilla-ajayi/">
                             <img src={group4} alt="Priscilla Ajayi" className="team-icon" />
                         </a>
-                        <p className="role">Lead Software Developer</p>
-                        <p className="name">Priscilla Ajayi</p>
+                        <p className="role">Lead Software Engineer</p>
+                        <p className="name">Mrs Priscilla O. AJAYI</p>
 
                     </div>
+
                     <div className="team-member">
-                        <a href="https://www.linkedin.com/in/festusojesanmi/">
-                            <img src={group5} alt="Festus Ojesanmi" className="team-icon" />
+                        <a href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117">
+                            <img src={group1} alt="Mrs. Sweetwilliams" className="team-icon" />
                         </a>
-                        <p className="role">Software Developer</p>
-                        <p className="name">Festus Ojesanmi</p>
+                        <p className="role">System Engineer</p>
+                        <p className="name">Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
 
                     </div>
+
                     <div className="team-member">
                         <a href="https://www.linkedin.com/in/john-wejin-431141112/">
                             <img src={group6} alt="Mr John" className="team-icon" />
                         </a>
-                        <p className="role">System Admin Intern</p>
+                        <p className="role">System Engineering Intern</p>
                         <p className="name">Mr John</p>
 
                     </div>
+
+                    <div className="team-member">
+                        <a href="https://www.linkedin.com/in/uche-josiah-47386618b/">
+                            <img src={group7} alt="Mr Uche" className="team-icon" />
+                        </a>
+                        <p className="role">System Engineering Intern</p>
+                        <p className="name">Uche J. Nnaji</p>
+
+                    </div>
+
+                    <div className="team-member">
+                        <a href="https://www.linkedin.com/in/festusojesanmi/">
+                            <img src={group5} alt="Festus Ojesanmi" className="team-icon" />
+                        </a>
+                        <p className="role">Software Development Intern</p>
+                        <p className="name">Festus Ojesanmi</p>
+
+                    </div>
+                 
                 </div>
             </div>
 

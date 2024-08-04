@@ -37,6 +37,7 @@
   margin: 20px;
 }
 
+
 .team-icon {
   width: 70px;
   height: 70px;
@@ -44,15 +45,15 @@
 }
 
 .role {
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 700;
   margin-top: 10px;
   color: #474545;
   text-align: center;
 }
 
 .name {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   margin-top: 10px;
   color: #474545;
