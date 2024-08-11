@@ -57,29 +57,29 @@ function Home() {
                 </p>
                 <div className="card-container">
                     <div className="card">
-                        <img src={microchip} alt="500 CPU Cores" className="icon" />
-                        <h2>500</h2>
+                        <img src={microchip} alt="120 CPU Cores" className="icon" />
+                        <h2>120</h2>
                         <p>CPU cores</p>
                     </div>
                     <div className="card">
                         <img src={server} alt="40/20 CPU/GPU Servers" className="icon" />
-                        <h2>20</h2>
+                        <h2>8</h2>
                         <p>GPU Servers</p>
                     </div>
 
                     <div className="card">
                         <img src={server} alt="40/20 CPU/GPU Servers" className="icon" />
-                        <h2>40</h2>
+                        <h2>18</h2>
                         <p>CPU Servers</p>
                     </div>
                     <div className="card">
                         <img src={database} alt="640 TB of Storage" className="icon" />
-                        <h2>640</h2>
+                        <h2>32</h2>
                         <p>TB of Combined Storage</p>
                     </div>
                     <div className="card">
                         <img src={computeEngine} alt="86 TB of RAM" className="icon" />
-                        <h2>86</h2>
+                        <h2>4</h2>
                         <p>TB of RAM</p>
                     </div>
                 </div>
@@ -95,8 +95,8 @@ function Home() {
                         <a href="https://www.linkedin.com/in/emmanuel-adetiba-ph-d-bab79082/">
                             <img src={group2} alt="Engr Matthew Boladele" className="team-icon" />
                         </a>
-                        <p className="role">Founding PI</p>
-                        <p className="name">Prof. E. Adetiba</p>
+                        <p className="role">Prof. E. Adetiba</p>
+                        <p className="name">Founding PI</p>
                     </div>
                     
 
@@ -104,16 +104,16 @@ function Home() {
                         <a href="https://archive2.covenantuniversity.edu.ng/Profiles/Akanle-Matthew-Boladele">
                             <img src={group3} alt="Mr John" className="team-icon" />
                         </a>
-                        <p className="role">Lead System Engineer</p>
-                        <p className="name">Engr. Matthew Boladele AKANLE</p>
+                        <p className="role">Engr. Matthew Boladele AKANLE</p>
+                        <p className="name">Lead System Engineer</p>
 
                     </div>
                     <div className="team-member">
                         <a href="https://www.linkedin.com/in/priscilla-ajayi/">
                             <img src={group4} alt="Priscilla Ajayi" className="team-icon" />
                         </a>
-                        <p className="role">Lead Software Developer</p>
-                        <p className="name">Mrs Priscilla O. AJAYI</p>
+                        <p className="role">Mrs Priscilla O. AJAYI</p>
+                        <p className="name">Lead Software Developer</p>
 
                     </div>
 
@@ -121,8 +121,8 @@ function Home() {
                         <a href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117">
                             <img src={group1} alt="Mrs. Sweetwilliams" className="team-icon" />
                         </a>
-                        <p className="role">System Engineer</p>
-                        <p className="name">Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
+                        <p className="role"> Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
+                        <p className="name">System Engineer</p>
 
                     </div>
 
@@ -130,8 +130,8 @@ function Home() {
                         <a href="https://www.linkedin.com/in/john-wejin-431141112/">
                             <img src={group6} alt="Mr John" className="team-icon" />
                         </a>
-                        <p className="role">System Engineering Intern</p>
-                        <p className="name">John Wejin</p>
+                        <p className="role">John Wejin</p>
+                        <p className="name">System Engineering Intern</p>
 
                     </div>
 
@@ -139,8 +139,8 @@ function Home() {
                         <a href="https://www.linkedin.com/in/uche-josiah-47386618b/">
                             <img src={group7} alt="Mr Uche" className="team-icon" />
                         </a>
-                        <p className="role">System Engineering Intern</p>
-                        <p className="name">Uche J. Nnaji</p>
+                        <p className="role">Uche J. Nnaji</p>
+                        <p className="name">System Engineering Intern </p>
 
                     </div>
 
@@ -148,8 +148,8 @@ function Home() {
                         <a href="https://www.linkedin.com/in/festusojesanmi/">
                             <img src={group5} alt="Festus Ojesanmi" className="team-icon" />
                         </a>
-                        <p className="role">Software Development Intern</p>
-                        <p className="name">Festus Ojesanmi</p>
+                        <p className="role">Festus Ojesanmi</p>
+                        <p className="name"> Software Development Intern</p>
 
                     </div>
                  

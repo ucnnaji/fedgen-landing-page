@@ -25,10 +25,10 @@
 
 .team-member {
   background-color: #f3f4f6;
-  padding: 10px;
-  width: 220px;
-  height: 220px;
-  border-radius: 200px;
+  padding: 15px;
+  width: 300px;
+  height: 300px;
+  border-radius: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,8 +39,8 @@
 
 
 .team-icon {
-  width: 70px;
-  height: 70px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
 }
 
@@ -50,6 +50,7 @@
   margin-top: 10px;
   color: #474545;
   text-align: center;
+  
 }
 
 .name {
@@ -464,6 +465,10 @@ color: #fefcfc;
   justify-content: space-between;
   width: 100%;
   /* Ensures the container spans the full width of its parent */
+}
+
+.navigate img{
+  margin-left: 10px;
 }
 
 .menu-bars {

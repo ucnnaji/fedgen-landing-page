@@ -1,25 +1,21 @@
 import React from 'react';
 import './App.css';
-import { Grid, Card, CardContent, Typography, CardActions, Button } from "@mui/material";
-import Container from "@mui/material/Container";
-import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea } from '@mui/material';
+import { Grid, Card, CardContent, Typography, CardActions, Button, CardMedia, CardActionArea, Container } from "@mui/material";
 
 const Content = ({ data }) => {
     return (
         <Container maxWidth="lg">
-            <Grid container spacing={4} style={{ marginTop: "0px" }}>
+            <Grid container spacing={6} style={{ marginTop: "0px" }}>
                 {data.map((result, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                        <CardMedia
-                            component="img"
-                            image={result.img}
-                            sx={{ height: "200px", width: "340px" }}
-                            alt="Article"
-                            style={{ borderRadius: "2px", objectFit: "center", display: "flex", marginLeft: "37px" }}
-                        />
                         <Card sx={{ maxWidth: 350 }} style={{ marginLeft: "36px" }}>
-                            <CardActionArea style={{ objectFit: "right" }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    component="img"
+                                    image={result.img}
+                                    sx={{ height: "200px", width: "100%", objectFit: "cover" }}
+                                    alt="Article"
+                                />
                                 <CardContent>
                                     <Typography gutterBottom style={{ fontWeight: 'bold' }} component="div">
                                         {result.title}

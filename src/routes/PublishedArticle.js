@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Content from "../Content.js";
-import "../App.css";
-import Data from '../Data.json';
+import "../PublishedArticle.css";
+
+import Data from '../Data-2024.json';
 import containerImage from './Container-image.png';
-import SecondData from '../SecondData.json';  // Assuming you have another JSON file for different years
+import SecondData from '../Data-2023.json';  // Assuming you have another JSON file for different years
+import ThirdData from '../Data-2022.json';
+import FourthData from '../Data-2021.json';
+import FifthData from '../Data-2020.json';
+import SixthData from '../Data-2020.json';
 
 function PublishedArticle() {
-    const [activeYear, setActiveYear] = useState(null);
+    const [activeYear, setActiveYear] = useState('2024'); // Set initial year
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -18,6 +23,22 @@ function PublishedArticle() {
             case '2023':
                 setData(SecondData);  // Use the appropriate data for 2023
                 break;
+            
+            case '2022':
+                setData(ThirdData);  // Use the appropriate data for 2023
+                break;
+            
+            case '2021':
+                setData(FourthData);  // Use the appropriate data for 2023
+                break;
+            
+            case '2020':
+                setData(FifthData);  // Use the appropriate data for 2023
+                break;
+
+            case '2019':
+                setData(SixthData);  // Use the appropriate data for 2023
+                break;
             // Add more cases for other years and their corresponding data
             default:
                 setData([]);
@@ -26,30 +47,23 @@ function PublishedArticle() {
 
     return (
         <>
-           <div className="central">
+            <div className="central">
                 <img src={containerImage} alt="My Local Image" className="right-image"/>
                 <h1>Published Articles</h1>
             </div>
 
-           
+            <nav className='second-link'>
+                <div><Link to="#" onClick={() => setActiveYear('2024')}>2024</Link></div>
+                <div><Link to="#" onClick={() => setActiveYear('2023')}>2023</Link></div>
+                <div><Link to="#" onClick={() => setActiveYear('2022')}>2022</Link></div>
+                <div><Link to="#" onClick={() => setActiveYear('2021')}>2021</Link></div>
+                <div><Link to="#" onClick={() => setActiveYear('2020')}>2020</Link></div>
+                <div><Link to="#" onClick={() => setActiveYear('2019')}>2019</Link></div>
+            </nav>
 
-            <>  
-                <nav className='second-link'>
-                    <div><Link to="#" onClick={() => setActiveYear('2024')}>2024</Link></div>
-                    <div><Link to="#" onClick={() => setActiveYear('2023')}>2023</Link></div>
-                    <div><Link to="#" onClick={() => setActiveYear('2022')}>2022</Link></div>
-                    <div><Link to="#" onClick={() => setActiveYear('2021')}>2021</Link></div>
-                    <div><Link to="#" onClick={() => setActiveYear('2020')}>2020</Link></div>
-                    <div><Link to="#" onClick={() => setActiveYear('2019')}>2019</Link></div>
-                </nav>
-
-                <div className='json-content'>
+            <div className='json-content'>
                 <Content data={data} />
             </div>
-            </>
-           
-                
-            
         </>
     );
 }
