@@ -9,7 +9,7 @@ import SecondData from '../Data-2023.json';  // Assuming you have another JSON f
 import ThirdData from '../Data-2022.json';
 import FourthData from '../Data-2021.json';
 import FifthData from '../Data-2020.json';
-import SixthData from '../Data-2020.json';
+import SixthData from '../Data-2019.json';
 
 function PublishedArticle() {
     const [activeYear, setActiveYear] = useState('2024'); // Set initial year

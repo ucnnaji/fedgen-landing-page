@@ -26,7 +26,7 @@ const AppLayout = () => (
   <>
 
     <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={mainLogo} alt="My Local Image" style={{ width: '130px', maxHeight: '80px', maxWidth: '200%' }} />
+      <img src={mainLogo} alt="My Local Image" style={{ width: '130px', maxHeight: '80px', maxWidth: '200%'}} />
       <Navbar />
     </div>
 
