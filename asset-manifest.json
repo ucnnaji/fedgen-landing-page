@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fedgen-landing-page/static/css/main.6fc1fe26.css",
-    "main.js": "/fedgen-landing-page/static/js/main.94252e62.js",
+    "main.css": "/fedgen-landing-page/static/css/main.9f252b09.css",
+    "main.js": "/fedgen-landing-page/static/js/main.5fefe78e.js",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
     "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.e7908cb8e7429e37513e.png",
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
@@ -18,14 +18,15 @@
     "static/media/aspmir-logo.png": "/fedgen-landing-page/static/media/aspmir-logo.a4291e397f7346910a4a.png",
     "static/media/cea-logo.png": "/fedgen-landing-page/static/media/cea-logo.36f8ce35db9c04086ee0.png",
     "static/media/oafd-logo.png": "/fedgen-landing-page/static/media/oafd-logo.393dd2de25cadef9bbcb.png",
+    "static/media/fedgen-logo.png": "/fedgen-landing-page/static/media/fedgen-logo.b28a668caf4e3ae3b2cf.png",
     "static/media/google-logo.png": "/fedgen-landing-page/static/media/google-logo.9814c37bc9103b80f05d.png",
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
-    "main.6fc1fe26.css.map": "/fedgen-landing-page/static/css/main.6fc1fe26.css.map",
-    "main.94252e62.js.map": "/fedgen-landing-page/static/js/main.94252e62.js.map"
+    "main.9f252b09.css.map": "/fedgen-landing-page/static/css/main.9f252b09.css.map",
+    "main.5fefe78e.js.map": "/fedgen-landing-page/static/js/main.5fefe78e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fc1fe26.css",
-    "static/js/main.94252e62.js"
+    "static/css/main.9f252b09.css",
+    "static/js/main.5fefe78e.js"
   ]
 }
