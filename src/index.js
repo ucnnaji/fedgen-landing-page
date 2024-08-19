@@ -26,7 +26,7 @@ const AppLayout = () => (
   <>
 
     <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={mainLogo} alt="My Local Image" style={{ width: '130px', maxHeight: '80px', maxWidth: '200%'}} />
+      <img src={mainLogo} alt="My Local Image" style={{ width: '100px', maxHeight: '80px', maxWidth: '200%'}} />
       <Navbar />
     </div>
 
@@ -39,10 +39,8 @@ const AppLayout = () => (
 const App = () => (
   <Router>
     <Routes>
-
       <Route path="/" element={<AppLayout />}>
         <Route index element={<Home />} />
-        <Route path="News" element={<News />} />
         <Route path="People" element={<People />} />
         <Route path="PublishedArticle" element={<PublishedArticle />} />
         <Route path="UpcomingEvents" element={<UpcomingEvents />} />

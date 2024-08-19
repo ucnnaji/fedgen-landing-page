@@ -3,9 +3,9 @@ import '../App.css';
 import containerImage from './Container-image.png';
 import ContactGrid from './ContactGrid'; // Import the ContactGrid component
 import ProfileCard from './ProfileCard';
-import Sweets from './Sweets.png';
+import Sweets from './group1.png';
 import group3 from './group3.png';
-import group6 from './group6.png';
+import group6 from './group6.jpeg';
 import group5 from './group5.jpeg';
 import group4 from './group4.jpeg';
 import group2 from './group2.jpeg';
@@ -87,7 +87,7 @@ function People() {
     <>
       <div className="central">
         <img src={containerImage} alt="My Local Image" className="right-image" />
-        <h1>People</h1>
+        <h1>PEOPLE</h1>
       </div>
 
       <div style={{ marginTop: '2rem' }}>

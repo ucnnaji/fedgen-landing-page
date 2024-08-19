@@ -19,12 +19,6 @@ export const SidebarData = [
   },
 
   {
-    title: "News",
-    path: "/News",
-    icon: <FaRegNewspaper />,
-    cName: "nav-text",
-  },
-  {
     title: "People",
     path: "/People",
     icon: <MdOutlinePeopleAlt />,

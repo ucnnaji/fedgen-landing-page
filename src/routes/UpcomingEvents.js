@@ -7,7 +7,7 @@ function UpcomingEvents(){
     return (
         <div className="central">
             <img src={containerImage} alt="My Local Image" className="right-image"/>
-            <h1>Upcoming Events</h1>
+            <h1>UPCOMNING EVENTS</h1>
         </div>
 
     );

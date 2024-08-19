@@ -1,11 +1,16 @@
 import React from 'react';
+
+import LeadershipCloud from "../LeadershipCloud.jsx";
 import containerImage from './Home-image.png';
 import database from './database.png';
-import server from './server.png';
-import microchip from './microchip.png';
-import computeEngine from './computeEngine.png';
+import { TbCpu } from "react-icons/tb";
+import { BsCpuFill } from "react-icons/bs";
+import { CiServer } from "react-icons/ci";
+import { HiOutlineServerStack } from "react-icons/hi2";
+import { TiCloudStorage } from "react-icons/ti";
 
-import group6 from './group6.png';
+
+import group6 from './group6.jpeg';
 import group5 from './group5.jpeg';
 import group4 from './group4.jpeg';
 import group3 from './group3.png';
@@ -28,22 +33,23 @@ function Home() {
     return (
         <>
             <div className="Homecentral">
-                <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '1000px' }} />
+                <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }} />
                 <div className="text-container">
                     <h1>FEDGEN Cloud</h1>
-                    <h2>LEADING PLAYERS IN AFRICA'S SUPER COMPUTING MARKET.</h2>
-                    <p id='home-text'>
-                        Africa's most powerful supercomputer, spearheading the continent's scientific and
-                        <br />
-                        technological revolution, tackling unique challenges and advancing global innovation.
-                    </p>
+                    <p>LEADING PLAYERS IN AFRICA'S SUPER COMPUTING MARKET.</p>
+                    
                 </div>
             </div>
 
             <div className="container">
                 <h1 className="title">What is FEDGEN Cloud?</h1>
                 <p className="home-description">
-                    The Federated Genomic (FEDGEN) cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis, and collaboration across the continent, addressing unique genetic research challenges and advancing precision medicine. FEDGEN's cloud infrastructure is revolutionizing genomic research in Africa by providing a robust platform for storing and analyzing vast amounts of genetic data. Its in-memory computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex genetic information and accelerate the discovery of new treatments and therapies.
+                    The Federated Genomic (FEDGEN) cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis, 
+                    and collaboration across the continent, addressing unique genetic research challenges and advancing precision medicine. FEDGEN's cloud infrastructure is revolutionizing genomic research in Africa by providing a robust platform for storing and analyzing 
+                    vast amounts of genetic data. Its in-memory computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex genetic information and accelerate the discovery of new treatments and therapies.
+                    The FEDGEN platform not only enhances the efficiency of genomic research but also democratizes access to advanced computational tools, enabling institutions and researchers, regardless of their location or resources, to participate in cutting-edge studies. 
+                    This collaboration fosters a more inclusive research environment, which is essential for addressing the continent's diverse health challenges. Ultimately, FEDGEN is set to revolutionize precision medicine in Africa by providing a robust, scalable, and innovative 
+                    platform that drives forward genetic research, accelerates discoveries, and leads to better health outcomes for millions of people.
                 </p>
                 <div className="button-container">
                     <button className="request-button">Request Access</button>
@@ -53,32 +59,32 @@ function Home() {
             <div className="section">
                 <h1 className="heading">Our Cloud Resource Capacity</h1>
                 <p className="capdescription">
-                    FEDGEN cloud infrastructure features high-performance nodes with up to 1.5 TB of RAM, multi-core processors such as 64-core Intel Xeon or AMD EPYC CPUs, and scalable storage solutions offering petabytes of NVMe SSDs. This robust capacity ensures real-time data processing, secure data sharing, and efficient analysis for groundbreaking genomic research in Africa.
+                The FEDGEN cloud infrastructure is designed to support the computationally demanding needs of genomic research across Africa, featuring high-performance nodes equipped with cutting-edge hardware. These nodes are configured with up to 1.5 TB of RAM, providing immense memory capacity to handle the complex tasks involved in processing and analyzing massive genomic datasets. This extensive memory allocation is crucial for real-time data processing, allowing researchers to perform large-scale computations without latency, which is particularly important for tasks like genome assembly, and the application of machine learning models to genetic data.
                 </p>
                 <div className="card-container">
                     <div className="card">
-                        <img src={microchip} alt="120 CPU Cores" className="icon" />
+                        <TbCpu size={60}/>
                         <h2>120</h2>
                         <p>CPU cores</p>
                     </div>
                     <div className="card">
-                        <img src={server} alt="40/20 CPU/GPU Servers" className="icon" />
+                        <CiServer size={62}/>
                         <h2>8</h2>
                         <p>GPU Servers</p>
                     </div>
 
                     <div className="card">
-                        <img src={server} alt="40/20 CPU/GPU Servers" className="icon" />
+                        <HiOutlineServerStack size={61}/>
                         <h2>18</h2>
                         <p>CPU Servers</p>
                     </div>
                     <div className="card">
-                        <img src={database} alt="640 TB of Storage" className="icon" />
+                        <TiCloudStorage size={60}/>
                         <h2>32</h2>
-                        <p>TB of Combined Storage</p>
+                        <p>TB of Storage</p>
                     </div>
                     <div className="card">
-                        <img src={computeEngine} alt="86 TB of RAM" className="icon" />
+                        <BsCpuFill size={55}/>
                         <h2>4</h2>
                         <p>TB of RAM</p>
                     </div>
@@ -89,16 +95,19 @@ function Home() {
                 <h1 className="team-subheading">Team members</h1>
 
                
-                <div className="team-container">
+                <div className="team-container-prof">
                     
-                <div className="team-member">
+                <div className="team-member-prof">
                         <a href="https://www.linkedin.com/in/emmanuel-adetiba-ph-d-bab79082/">
-                            <img src={group2} alt="Engr Matthew Boladele" className="team-icon" />
+                            <img src={group2} alt="Adetiba" className="team-icon-prof" />
                         </a>
                         <p className="role">Prof. E. Adetiba</p>
-                        <p className="name">Founding PI</p>
+                        <p className="name">Founding Principal Investigator</p>
+                        <hr />
                     </div>
-                    
+                </div>
+
+                <div  className="team-container">    
 
                     <div className="team-member">
                         <a href="https://archive2.covenantuniversity.edu.ng/Profiles/Akanle-Matthew-Boladele">
@@ -121,11 +130,12 @@ function Home() {
                         <a href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117">
                             <img src={group1} alt="Mrs. Sweetwilliams" className="team-icon" />
                         </a>
-                        <p className="role"> Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
+                        <p className="role">Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
                         <p className="name">System Engineer</p>
 
                     </div>
 
+                
                     <div className="team-member">
                         <a href="https://www.linkedin.com/in/john-wejin-431141112/">
                             <img src={group6} alt="Mr John" className="team-icon" />
@@ -154,6 +164,10 @@ function Home() {
                     </div>
                  
                 </div>
+            </div>
+
+            <div>
+                <LeadershipCloud />
             </div>
 
             <div className="partners-section">

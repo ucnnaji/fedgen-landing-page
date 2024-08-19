@@ -7,7 +7,7 @@ function News(){
     return (
         <div className="central">
             <img src={containerImage} alt="My Local Image" className="right-image"/>
-            <h1>News</h1>
+            <h1>NEWS</h1>
         </div>
 
     );

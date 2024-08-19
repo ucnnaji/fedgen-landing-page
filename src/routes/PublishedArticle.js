@@ -49,7 +49,7 @@ function PublishedArticle() {
         <>
             <div className="central">
                 <img src={containerImage} alt="My Local Image" className="right-image"/>
-                <h1>Published Articles</h1>
+                <h1>PUBLISHED ARTICLES</h1>
             </div>
 
             <nav className='second-link'>
