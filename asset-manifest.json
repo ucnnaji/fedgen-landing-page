@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/fedgen-landing-page/static/css/main.9f252b09.css",
-    "main.js": "/fedgen-landing-page/static/js/main.41cb6562.js",
+    "main.css": "/fedgen-landing-page/static/css/main.b44a6401.css",
+    "main.js": "/fedgen-landing-page/static/js/main.3f092a19.js",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
     "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.e7908cb8e7429e37513e.png",
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
-    "static/media/Sweets.png": "/fedgen-landing-page/static/media/Sweets.c74cd21dbde4f8972e49.png",
+    "static/media/group1.png": "/fedgen-landing-page/static/media/group1.c74cd21dbde4f8972e49.png",
     "static/media/group7.jpg": "/fedgen-landing-page/static/media/group7.2cdcd680302316b22db1.jpg",
     "static/media/group3.png": "/fedgen-landing-page/static/media/group3.a598c779f60c9cc0065f.png",
-    "static/media/group1.png": "/fedgen-landing-page/static/media/group1.8c3b681e6774ba6faebf.png",
     "static/media/dstn-logo.png": "/fedgen-landing-page/static/media/dstn-logo.742ff599b8c5ec7e9956.png",
     "static/media/covenant-logo.png": "/fedgen-landing-page/static/media/covenant-logo.9b81e823650bc9b149bb.png",
-    "static/media/group6.png": "/fedgen-landing-page/static/media/group6.24c84a804b9f970ecbfe.png",
     "static/media/capic-logo.png": "/fedgen-landing-page/static/media/capic-logo.1844b884deed5530a781.png",
     "static/media/group4.jpeg": "/fedgen-landing-page/static/media/group4.50ab73baadcd281c7410.jpeg",
     "static/media/group5.jpeg": "/fedgen-landing-page/static/media/group5.2d5681f57dea173c6e05.jpeg",
@@ -22,11 +20,11 @@
     "static/media/google-logo.png": "/fedgen-landing-page/static/media/google-logo.9814c37bc9103b80f05d.png",
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
-    "main.9f252b09.css.map": "/fedgen-landing-page/static/css/main.9f252b09.css.map",
-    "main.41cb6562.js.map": "/fedgen-landing-page/static/js/main.41cb6562.js.map"
+    "main.b44a6401.css.map": "/fedgen-landing-page/static/css/main.b44a6401.css.map",
+    "main.3f092a19.js.map": "/fedgen-landing-page/static/js/main.3f092a19.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f252b09.css",
-    "static/js/main.41cb6562.js"
+    "static/css/main.b44a6401.css",
+    "static/js/main.3f092a19.js"
   ]
 }
