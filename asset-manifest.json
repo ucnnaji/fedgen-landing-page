@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fedgen-landing-page/static/css/main.b44a6401.css",
-    "main.js": "/fedgen-landing-page/static/js/main.3f092a19.js",
+    "main.css": "/fedgen-landing-page/static/css/main.395b90ae.css",
+    "main.js": "/fedgen-landing-page/static/js/main.4e67ffbb.js",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
     "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.e7908cb8e7429e37513e.png",
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
@@ -20,11 +20,11 @@
     "static/media/google-logo.png": "/fedgen-landing-page/static/media/google-logo.9814c37bc9103b80f05d.png",
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
-    "main.b44a6401.css.map": "/fedgen-landing-page/static/css/main.b44a6401.css.map",
-    "main.3f092a19.js.map": "/fedgen-landing-page/static/js/main.3f092a19.js.map"
+    "main.395b90ae.css.map": "/fedgen-landing-page/static/css/main.395b90ae.css.map",
+    "main.4e67ffbb.js.map": "/fedgen-landing-page/static/js/main.4e67ffbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b44a6401.css",
-    "static/js/main.3f092a19.js"
+    "static/css/main.395b90ae.css",
+    "static/js/main.4e67ffbb.js"
   ]
 }
