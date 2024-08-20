@@ -95,7 +95,7 @@ function Home() {
             </div>
 
             <div className="team-section">
-                <h1 className="team-subheading">Team members</h1>
+                <h1 className="team-subheading">Core Implementation Team</h1>
 
                
                 <div className="team-container-prof">

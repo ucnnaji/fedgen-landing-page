@@ -3,11 +3,7 @@ import './LeadershipCloud.css';
 
 function Leadership() {
   const leadershipData = [
-    {
-      university: 'Covenant University',
-      color: '#800080', 
-      members: ['Prof. E Adetiba (PI)', 'Engr Boladele', 'Mrs Priscilla'],
-    },
+    
     {
       university: 'Landmark University',
       color: '#008000',
@@ -43,7 +39,7 @@ function Leadership() {
 
   return (
     <div className="leadership-section">
-      <h1 className="leadership-title">FEDGEN Team</h1>
+      <h1 className="leadership-title">FEDGEN Partners</h1>
       <div className="leadership-card-container">
         {leadershipData.map((group, index) => (
           <div key={index} className="leadership-card" style={{ borderTopColor: group.color }}>
