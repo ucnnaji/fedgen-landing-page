@@ -8,6 +8,9 @@ import { BsCpuFill } from "react-icons/bs";
 import { CiServer } from "react-icons/ci";
 import { HiOutlineServerStack } from "react-icons/hi2";
 import { TiCloudStorage } from "react-icons/ti";
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 import group6 from './group6.jpeg';
@@ -36,7 +39,7 @@ function Home() {
                 <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }} />
                 <div className="text-container">
                     <h1>FEDGEN Cloud</h1>
-                    <p>LEADING PLAYERS IN AFRICA'S SUPER COMPUTING MARKET.</p>
+                    <p>Federated Genomics Cloud infrastructure</p>
                     
                 </div>
             </div>
@@ -52,7 +55,7 @@ function Home() {
                     platform that drives forward genetic research, accelerates discoveries, and leads to better health outcomes for millions of people.
                 </p>
                 <div className="button-container">
-                    <button className="request-button">Request Access</button>
+                    <button className="request-button">Request Cloud Resources</button>
                 </div>
             </div>
 
@@ -162,15 +165,9 @@ function Home() {
                         <p className="name"> Software Development Intern</p>
 
                     </div>
-                 
-                </div>
-            </div>
 
-            <div>
-                <LeadershipCloud />
-            </div>
 
-            <div className="partners-section">
+                    <div className="partners-section">
                 <h1 className="partners-heading"> Academic & Industry Partners</h1>
                 <div className="partners-grid">
                     <div className="partner">
@@ -202,33 +199,41 @@ function Home() {
                         <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
                     </div>
 
-                    <footer className="footer">
+                   
+
+                </div>
+            </div>
+
+
+                 
+                </div>
+            </div>
+
+            <div>
+                <LeadershipCloud />
+            </div>
+
+          
+
+            <footer className="footer">
                         <div className="footer-content">
                             <div className="footer-logo">
                                 <h1>FEDGEN Cloud</h1>
                             </div>
-                            <nav className="footer-nav">
-                                <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#services">Services</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                </ul>
-                            </nav>
+                           
                             <div className="footer-social">
-                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={23} color="grey"/></a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter size={23} color="grey"/></a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} color="grey"/></a>
                             </div>
+
                             <div className="footer-bottom">
-                            <p>&copy; {new Date().getFullYear()} MyCompany. All rights reserved.</p>
-                        </div>
+                                <p>&copy; {new Date().getFullYear()} FEDGEN. All rights reserved.</p>
+                            </div>
                         </div>
                         
-                    </footer>
+            </footer>
 
-                </div>
-            </div>
         </>
     );
 }

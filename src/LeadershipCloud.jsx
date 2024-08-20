@@ -5,27 +5,27 @@ function Leadership() {
   const leadershipData = [
     {
       university: 'Covenant University',
-      color: '#B22222',
+      color: '#800080', 
       members: ['Prof. E Adetiba (PI)', 'Engr Boladele', 'Mrs Priscilla'],
     },
     {
       university: 'Landmark University',
-      color: '#B22222',
+      color: '#008000',
       members: ['Prof (co-PI)'],
     },
     {
       university: 'Afe Babalola University',
-      color: '#800080',
+      color: '#3865A6',
       members: ['Prof. Shola (co-PI)'],
     },
     {
       university: 'ULPGL Democratic Republic of Congo',
-      color: '#D2691E',
+      color: '#3865A6',
       members: ['Akella (co-PI)'],
     },
     {
       university: 'Gaston Berger University, St Louis, Senegal',
-      color: '#8B0000',
+      color: '#B35C35',
       members: ['Mike (co-PI)'],
     },
     {
@@ -36,14 +36,14 @@ function Leadership() {
 
     {
       university: 'International University of Grand Bassam, Grand Bassam, ',
-      color: '#FF8C00',
+      color: '#202349',
       members: ['Ricart (co-PI)'],
     },
   ];
 
   return (
     <div className="leadership-section">
-      <h1 className="leadership-title">FEDGEN Leadership</h1>
+      <h1 className="leadership-title">FEDGEN Team</h1>
       <div className="leadership-card-container">
         {leadershipData.map((group, index) => (
           <div key={index} className="leadership-card" style={{ borderTopColor: group.color }}>
