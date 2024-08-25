@@ -29,6 +29,33 @@
 }
 
 
+.team-container-coinvestigator {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:60px;
+}
+
+.team-icon-prof {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the effect */
+}
+
+.team-link:hover .team-icon-prof {
+  transform: scale(1.1); /* Scales the image to 110% of its original size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+}
+
+
+.people-contact{
+  marginTop: 5px; 
+  gap: 1px;
+  padding:2px; 
+  display: flex; 
+  color:rgb(243, 91, 91);
+  margin:3px;
+  border-radius: 15px;
+}
+
 .team-member-prof {
   padding: 5px;
   width: 300px;
