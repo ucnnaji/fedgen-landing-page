@@ -47,6 +47,12 @@ function People() {
       </div>
 
       <div className="team-section">
+          <div className="divider-container">
+                <hr className="line" />
+                <span className="text">Core Implementation Team</span>
+                <hr className="line" />
+          </div>
+          <br />
         <div className="team-container-prof">
 
           <div className="team-member-prof">
@@ -126,36 +132,46 @@ function People() {
 
 
           <div className="team-member">
-            <a href="https://www.linkedin.com/in/john-wejin-431141112/">
-              <img src={group6} alt="Mr John" className="team-icon" />
+            <a href="https://www.linkedin.com/in/john-wejin-431141112/" className="team-link" target="_blank">
+              <img src={group6} alt="Mr John" className="team-icon team-icon-prof" />
             </a>
             <p className="role">John Wejin</p>
             <p className="name">System Engineering Intern</p>
+
+            <div className="people-contact" >
+
+                <a className="people-contact" href="https://www.linkedin.com/in/john-wejin-431141112/" target="_blank" >
+                      <FaLinkedin size={17} />
+                </a>
+            </div>
                 
           </div>
 
           <div className="team-member">
-            <a href="https://www.linkedin.com/in/uche-josiah-47386618b/">
-              <img src={group7} alt="Mr Uche" className="team-icon" />
+            <a href="https://www.linkedin.com/in/uche-josiah-47386618b/" className="team-link">
+              <img src={group7} alt="Mr Uche" className="team-icon team-icon-prof" />
             </a>
             <p className="role">Uche J. Nnaji</p>
             <p className="name">System Engineering Intern </p>
+
             <div className="people-contact">
-              <FaGoogle size={16} />
-              <FaLinkedin size={16} />
+                <a className="people-contact" href="https://www.linkedin.com/in/uche-josiah-47386618b/" target="_blank" >
+                      <FaLinkedin size={16} />
+                </a>
             </div>
 
           </div>
 
           <div className="team-member">
-            <a href="https://www.linkedin.com/in/festusojesanmi/">
-              <img src={group5} alt="Festus Ojesanmi" className="team-icon" />
+            <a href="https://www.linkedin.com/in/festusojesanmi/" className="team-link">
+              <img src={group5} alt="Festus Ojesanmi" className="team-icon team-icon-prof" />
             </a>
             <p className="role">Festus Ojesanmi</p>
             <p className="name"> Software Development Intern</p>
             <div className="people-contact">
-              <FaGoogle size={16} />
-              <FaLinkedin size={16} />
+                  <a className="people-contact" href="https://www.linkedin.com/in/festusojesanmi/" target="_blank" >
+                      <FaLinkedin size={16} />
+                  </a>
             </div>
 
           </div>
@@ -163,25 +179,32 @@ function People() {
       </div>
 
 
+     
+
       <div className="team-section">
 
-        <div>
-          <h2>Co-investigators</h2>
+      <br />
+          <div className="divider-container">
+                <hr className="line" />
+                <span className="text">Co-investigators</span>
+                <hr className="line" />
+          </div>
           <br />
-        </div>
 
 
         <div className="team-container-coinvestigator" style={{ display: "flex" }}>
 
           <div className="team-member">
-            <img src={oshin} alt="Mr John" className="team-icon" />
+            <img src={oshin} alt="Mr John" className="team-icon"/>
             <p className="role">Dr. Oluwadamilola Oshin</p>
             <p className="name">Coordinator, ASPMIR Group and AI for Biomedical Signal Processing (AI4BSP) Working Group. Covenant University, Ota, Ogun State, Nigeria</p>
 
             <div className="people-contact">
-              <FaGoogle size={16} />
-              <FaLinkedin size={16} />
+                  <a className="people-contact" href=" https://www.linkedin.com/in/oluwadamilola-oshin-ph-d-72201448/" target="_blank" >
+                      <FaLinkedin size={16} />
+                  </a>
             </div>
+           
           </div>
 
 
@@ -224,16 +247,19 @@ function People() {
             <p className="name">Covenant University, Ota, <br /> Ogun State, Nigeria</p>
 
             <div className="people-contact">
-              <FaGoogle size={16} />
-              <FaLinkedin size={16} />
+              <a  className="people-contact" href="https://scholar.google.com/citations?hl=en&user=IqEKNhAAAAAJ" target="_blank">
+                <FaGoogle size={17} />
+              </a>
+
+              <a className="people-contact" href="https://www.linkedin.com/in/obiseye-obiyemi-b2b2706a/" target="_blank">
+                <FaLinkedin size={17} />
+              </a>
             </div>
-
-
           </div>
 
           <div className="team-member">
             <a href="https://www.linkedin.com/in/uche-josiah-47386618b/">
-              <img src={obiyemi} alt="Mr Uche" className="team-icon" />
+              <img src={obiyemi} alt="obiyemi" className="team-icon" />
             </a>
             <p className="role">Dr. Obiseye Obiyemi</p>
             <p className="name">Durban University of Technology <br /> Durban, South Africa </p>
@@ -251,10 +277,14 @@ function People() {
 
 
       <div className="team-section">
-        <div>
-          <h2>Research Collaborators</h2>
-        </div>
 
+        <br />
+          <div className="divider-container">
+                <hr className="line" />
+                <span className="text">Research Collaborators</span>
+                <hr className="line" />
+          </div>
+          <br />
         <div className="team-container">
           <div className="team-member">
             <img src={badejo} alt="Dr. Joke A. Badejo" className="team-icon" />

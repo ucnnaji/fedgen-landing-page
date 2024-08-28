@@ -11,7 +11,7 @@
 }
 
 .team-subheading {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   text-decoration: underline;
 }
@@ -120,7 +120,7 @@
   margin-top: 20px;
   
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   color: #234467;
   
   margin-bottom: 10px;
@@ -168,7 +168,7 @@
 
 .footer-logo h1 {
   margin-top: 13px;
-  font-size: 1.3rem;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
@@ -210,8 +210,7 @@
 
 /* Title Styling */
 .title {
-  font-size: 1.7rem;;
-  /* Responsive font size based on viewport width */
+  font-size: 22px;/* Responsive font size based on viewport width */
   max-width: 100%;
   font-weight: 700;
   color: #234467;
@@ -299,7 +298,7 @@
 }
 
 .heading {
-  font-size: 1.8rem; /* Adjusted for responsiveness */
+  font-size: 20px; /* Adjusted for responsiveness */
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -541,8 +540,30 @@
   /* Adjust line height for spacing */
 }
 
+.divider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%; /* Set the width of the container */
+  margin: 0 auto;
+}
+
+.line {
+  flex: 1;
+  border: none;
+  height: 2px;
+  background-color: red;
+  margin: 0 10px;
+}
+
+.text {
+  font-style: italic;
+  color: #000000;
+  font-weight: 600;
+}
+
 .text-container h1 {
-  font-size:xx-large;
+  font-size:x-large;
   text-align: center;
   text-align: ;
 }
