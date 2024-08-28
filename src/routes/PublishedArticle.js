@@ -48,7 +48,7 @@ function PublishedArticle() {
     return (
         <>
             <div className="central">
-                <img src={containerImage} alt="My Local Image" className="right-image"/>
+                <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '40vh' }}/>
                 <h2>PUBLISHED ARTICLES</h2>
             </div>
 

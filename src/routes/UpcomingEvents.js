@@ -6,7 +6,7 @@ function UpcomingEvents(){
 
     return (
         <div className="central">
-            <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }}/>
+            <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '40vh' }}/>
             <h2>UPCOMNING EVENTS</h2>
         </div>
 

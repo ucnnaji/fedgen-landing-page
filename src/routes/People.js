@@ -42,7 +42,7 @@ function People() {
   return (
     <>
       <div className="central">
-        <img src={containerImage} alt="My Local Image" className="right-image" />
+        <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '40vh' }} />
         <h2>PEOPLE</h2>
       </div>
 
@@ -595,6 +595,48 @@ function People() {
   </div>
 </div>
 
+
+<div className="student-team-section">
+  <br />
+  <br />
+  <div className="divider-container">
+    <hr className="line" />
+    <span className="text">Interns</span>
+    <hr className="line" />
+  </div>
+
+  <div className="student-team-container">
+    <div className="student-team-member">
+      <p className="role">John S. Wejin</p>
+      <p className="name">System & Cloud Engineering Intern</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Uche J. Nnaji</p>
+      <p className="name">Software Development Intern</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Festus Ojesanmi</p>
+      <p className="name">Software Development Intern</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Blessing Adekunle</p>
+      <p className="name">Web/Software Development Intern</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Ayoola Akindele</p>
+      <p className="name">Embedded System Development Intern</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Victor Akanle</p>
+      <p className="name">Software Development Intern</p>
+    </div>
+  </div>
+</div>
 
     </>
 
