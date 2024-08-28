@@ -17,7 +17,7 @@ const Content = ({ data }) => {
                                     alt="Article"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom style={{ fontWeight: 'bold' }} component="div">
+                                    <Typography gutterBottom style={{ fontWeight:'200' }} component="div">
                                         {result.title}
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
@@ -26,7 +26,7 @@ const Content = ({ data }) => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Button size="small" variant="outlined">Share</Button>
+                                
                                 <Button size="small" variant="outlined" onClick={() => window.location.href = result.link}>Read Article</Button>
                             </CardActions>
                         </Card>

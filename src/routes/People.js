@@ -43,16 +43,16 @@ function People() {
     <>
       <div className="central">
         <img src={containerImage} alt="My Local Image" className="right-image" />
-        <h1>PEOPLE</h1>
+        <h2>PEOPLE</h2>
       </div>
 
       <div className="team-section">
-          <div className="divider-container">
-                <hr className="line" />
-                <span className="text">Core Implementation Team</span>
-                <hr className="line" />
-          </div>
-          <br />
+        <div className="divider-container">
+          <hr className="line" />
+          <span className="text">Core Implementation Team</span>
+          <hr className="line" />
+        </div>
+        <br />
         <div className="team-container-prof">
 
           <div className="team-member-prof">
@@ -64,7 +64,7 @@ function People() {
             <p className="name">Founding Principal Investigator</p>
 
             <div className="people-contact" >
-              <a  className="people-contact" href="https://scholar.google.com/citations?user=3LTdUs0AAAAJ&hl=en" target="_blank" >
+              <a className="people-contact" href="https://scholar.google.com/citations?user=3LTdUs0AAAAJ&hl=en" target="_blank" >
                 <FaGoogle size={17} />
               </a>
 
@@ -81,11 +81,11 @@ function People() {
 
           <div className="team-member">
             <a href="https://archive2.covenantuniversity.edu.ng/Profiles/Akanle-Matthew-Boladele" className="team-link" target="_blank">
-              <img src={group3} alt="Mr John" className="team-icon team-icon-prof"/>
+              <img src={group3} alt="Mr John" className="team-icon team-icon-prof" />
             </a>
             <p className="role">Engr. Matthew Boladele AKANLE</p>
             <p className="name">Lead System Engineer</p>
-               
+
 
             <div className="people-contact" >
 
@@ -121,13 +121,13 @@ function People() {
             </a>
             <p className="role">Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
             <p className="name">System Engineer</p>
-                 
-                 <div className="people-contact" >
 
-                  <a className="people-contact" href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117" target="_blank" >
-                    <FaLinkedin size={17} />
-                  </a>
-                  </div>
+            <div className="people-contact" >
+
+              <a className="people-contact" href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117" target="_blank" >
+                <FaLinkedin size={17} />
+              </a>
+            </div>
           </div>
 
 
@@ -140,11 +140,11 @@ function People() {
 
             <div className="people-contact" >
 
-                <a className="people-contact" href="https://www.linkedin.com/in/john-wejin-431141112/" target="_blank" >
-                      <FaLinkedin size={17} />
-                </a>
+              <a className="people-contact" href="https://www.linkedin.com/in/john-wejin-431141112/" target="_blank" >
+                <FaLinkedin size={17} />
+              </a>
             </div>
-                
+
           </div>
 
           <div className="team-member">
@@ -155,9 +155,9 @@ function People() {
             <p className="name">System Engineering Intern </p>
 
             <div className="people-contact">
-                <a className="people-contact" href="https://www.linkedin.com/in/uche-josiah-47386618b/" target="_blank" >
-                      <FaLinkedin size={16} />
-                </a>
+              <a className="people-contact" href="https://www.linkedin.com/in/uche-josiah-47386618b/" target="_blank" >
+                <FaLinkedin size={16} />
+              </a>
             </div>
 
           </div>
@@ -169,9 +169,9 @@ function People() {
             <p className="role">Festus Ojesanmi</p>
             <p className="name"> Software Development Intern</p>
             <div className="people-contact">
-                  <a className="people-contact" href="https://www.linkedin.com/in/festusojesanmi/" target="_blank" >
-                      <FaLinkedin size={16} />
-                  </a>
+              <a className="people-contact" href="https://www.linkedin.com/in/festusojesanmi/" target="_blank" >
+                <FaLinkedin size={16} />
+              </a>
             </div>
 
           </div>
@@ -179,32 +179,32 @@ function People() {
       </div>
 
 
-     
+
 
       <div className="team-section">
 
-      <br />
-          <div className="divider-container">
-                <hr className="line" />
-                <span className="text">Co-investigators</span>
-                <hr className="line" />
-          </div>
-          <br />
+        <br />
+        <div className="divider-container">
+          <hr className="line" />
+          <span className="text">Co-investigators</span>
+          <hr className="line" />
+        </div>
+        <br />
 
 
         <div className="team-container-coinvestigator" style={{ display: "flex" }}>
 
           <div className="team-member">
-            <img src={oshin} alt="Mr John" className="team-icon"/>
+            <img src={oshin} alt="Mr John" className="team-icon" />
             <p className="role">Dr. Oluwadamilola Oshin</p>
             <p className="name">Coordinator, ASPMIR Group and AI for Biomedical Signal Processing (AI4BSP) Working Group. Covenant University, Ota, Ogun State, Nigeria</p>
 
             <div className="people-contact">
-                  <a className="people-contact" href=" https://www.linkedin.com/in/oluwadamilola-oshin-ph-d-72201448/" target="_blank" >
-                      <FaLinkedin size={16} />
-                  </a>
+              <a className="people-contact" href=" https://www.linkedin.com/in/oluwadamilola-oshin-ph-d-72201448/" target="_blank" >
+                <FaLinkedin size={16} />
+              </a>
             </div>
-           
+
           </div>
 
 
@@ -247,7 +247,7 @@ function People() {
             <p className="name">Covenant University, Ota, <br /> Ogun State, Nigeria</p>
 
             <div className="people-contact">
-              <a  className="people-contact" href="https://scholar.google.com/citations?hl=en&user=IqEKNhAAAAAJ" target="_blank">
+              <a className="people-contact" href="https://scholar.google.com/citations?hl=en&user=IqEKNhAAAAAJ" target="_blank">
                 <FaGoogle size={17} />
               </a>
 
@@ -279,12 +279,13 @@ function People() {
       <div className="team-section">
 
         <br />
-          <div className="divider-container">
-                <hr className="line" />
-                <span className="text">Research Collaborators</span>
-                <hr className="line" />
-          </div>
-          <br />
+        <br />
+        <div className="divider-container">
+          <hr className="line" />
+          <span className="text">Research Collaborators</span>
+          <hr className="line" />
+        </div>
+       
         <div className="team-container">
           <div className="team-member">
             <img src={badejo} alt="Dr. Joke A. Badejo" className="team-icon" />
@@ -441,14 +442,158 @@ function People() {
               <FaLinkedin size={16} />
             </div>
           </div>
+
+
         </div>
       </div>
 
 
 
 
+      <div className="student-team-section">
+        <br />
+        <br />
+        <div className="divider-container">
+          <hr className="line" />
+          <span className="text">Postdocs/Ph.Ds</span>
+          <hr className="line" />
+        </div>
+        
+        <div className="student-team-container">
+          <div className="student-team-member">
+            
+            <p className="role">Dr. Obiseye Obiyemi</p>
+            <p className="name">Postdoctoral Fellow (2020-2021), <br /> Durban University of Technology,<br /> Durban, South Africa.</p>
+            
+          </div>
 
 
+
+          <div className="student-team-member">
+           
+            <p className="role">Akinrinmade Adekunle</p>
+            <p className="name">Ph.D in Computer Engineering <br />Completed (2023), Covenant University, <br />Ota, Nigeria</p>
+            
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Funmilayo Moninuola</p>
+            <p className="name">Ph.D in ICE Completed (2023), <br /> Covenant University, Ota, Nigeria.</p>
+            
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Temitope Takpor</p>
+            <p className="name">Ph.D in ICE Completed (2023), <br /> Covenant University, Ota, Nigeria.</p>
+            
+          </div>
+
+          <div className="student-team-member">
+          
+            <p className="role">Dr. Abdultaofeek Abayomi</p>
+            <p className="name">Mangosuthu University of Technology,<br /> Durban, South Africa</p>
+           
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Dele Wasiu Alausa</p>
+            <p className="name">Ph.D Viva-Voce in Computer Engineering <br />Completed,  Covenant University, <br />Ota, Nigeria.</p>
+           
+          </div>
+
+          <div className="student-team-member">
+           
+            <p className="role">Adebiyi Adelakun</p>
+            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+            
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Ayodele H. Ifijeh (FEDGEN Scholar)</p>
+            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+            
+          </div>
+
+          <div className="student-team-member">
+           
+            <p className="role">Comfort O. Lawal (FEDGEN Scholar)</p>
+            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+           
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Omolola Ademola (FEDGEN Scholar)</p>
+            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+           
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Comfort Some-fun (FEDGEN Scholar)</p>
+            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+           
+          </div>
+
+          <div className="student-team-member">
+           
+            <p className="role">Gabriel Sobola (FEDGEN Scholar)</p>
+            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+            
+          </div>
+
+          <div className="student-team-member">
+            
+            <p className="role">Uche J. Nnaji(FEDGEN Scholar)</p>
+            <p className="name">Ph.D in Computer Science <br /> Ongoing at Covenant University,<br /> Ota, Nigeria.</p>
+            
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div className="student-team-section">
+  <br />
+
+  <div className="divider-container">
+    <hr className="line" />
+    <span className="text">Industry/Clinical Experts</span>
+    <hr className="line" />
+  </div>
+
+  <div className="student-team-container">
+    <div className="student-team-member">
+      <p className="role">Engr. Boladele Akanle</p>
+      <p className="name">Lead System & Cloud Infrastructure Engineering</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Mrs. Priscilla O. Ajayi</p>
+      <p className="name">Lead Software and DevOps Engineering</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Engr. (Mrs.) Faith O. Sweetwilliams</p>
+      <p className="name">System & Cloud Infrastructure Engineer</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Engr. Emmanuel Owolabi</p>
+      <p className="name">Telecommunication Engineer</p>
+    </div>
+
+    <div className="student-team-member">
+      <p className="role">Dr. Ademola Adeyeye (MBBS)</p>
+      <p className="name">Medical Advisor</p>
+    </div>
+  </div>
+</div>
 
 
     </>

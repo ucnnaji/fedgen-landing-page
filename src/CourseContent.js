@@ -42,7 +42,7 @@ const CourseContent = () => {
                                 </CardActionArea>
 
                                 <CardActions>
-                                    <Button size="small" variant="outlined">Share</Button>
+                                    
                                     <Button size="small" variant="outlined">Learn More</Button>
                                 </CardActions>
                             </Card>
