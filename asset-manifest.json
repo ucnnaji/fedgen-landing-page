@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fedgen-landing-page/static/css/main.72626183.css",
-    "main.js": "/fedgen-landing-page/static/js/main.0c5abfc9.js",
+    "main.js": "/fedgen-landing-page/static/js/main.1674697e.js",
     "static/media/Takenga Claude Mbusa.png": "/fedgen-landing-page/static/media/Takenga Claude Mbusa.bcb4b9c71ecc79ff3b0a.png",
     "static/media/Dr_Badejo.jpeg": "/fedgen-landing-page/static/media/Dr_Badejo.2fb4eddb4a5f421b669e.jpeg",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
@@ -43,10 +43,10 @@
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
     "main.72626183.css.map": "/fedgen-landing-page/static/css/main.72626183.css.map",
-    "main.0c5abfc9.js.map": "/fedgen-landing-page/static/js/main.0c5abfc9.js.map"
+    "main.1674697e.js.map": "/fedgen-landing-page/static/js/main.1674697e.js.map"
   },
   "entrypoints": [
     "static/css/main.72626183.css",
-    "static/js/main.0c5abfc9.js"
+    "static/js/main.1674697e.js"
   ]
 }
