@@ -9,7 +9,7 @@ function UpcomingEvents() {
         {
             title: 'FEDGEN Health EduApp',
             image: 'Monthly-Research-August.jpg',
-            link: 'https://ace-partner.org/dstn/en/projet/fedgen-healtheduapp/',
+            link: 'https://covenantuniversity-edu-ng.zoom.us/meeting/register/tZYoc-CrqT8rHdRpv43l-TupAiite4dtAW7h',
             description: 'FEDGEN Health EduApp'
         },
     ];
