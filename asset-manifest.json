@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fedgen-landing-page/static/css/main.4db2806d.css",
-    "main.js": "/fedgen-landing-page/static/js/main.fc76eda4.js",
+    "main.css": "/fedgen-landing-page/static/css/main.ec272513.css",
+    "main.js": "/fedgen-landing-page/static/js/main.3e7f6b8a.js",
     "static/media/Takenga Claude Mbusa.png": "/fedgen-landing-page/static/media/Takenga Claude Mbusa.bcb4b9c71ecc79ff3b0a.png",
     "static/media/Dr_Badejo.jpeg": "/fedgen-landing-page/static/media/Dr_Badejo.2fb4eddb4a5f421b669e.jpeg",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
@@ -16,8 +16,11 @@
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
     "static/media/group1.png": "/fedgen-landing-page/static/media/group1.c74cd21dbde4f8972e49.png",
     "static/media/group7.jpg": "/fedgen-landing-page/static/media/group7.2cdcd680302316b22db1.jpg",
+    "static/media/Monthly-Research-August.jpg": "/fedgen-landing-page/static/media/Monthly-Research-August.759ffe7aca3e5d5fb5a1.jpg",
     "static/media/Dr-Raymond.jpg": "/fedgen-landing-page/static/media/Dr-Raymond.47f11e40b3ed9a1a5158.jpg",
     "static/media/group3.png": "/fedgen-landing-page/static/media/group3.a598c779f60c9cc0065f.png",
+    "static/media/Fedgen-HealthEduApp.jpeg": "/fedgen-landing-page/static/media/Fedgen-HealthEduApp.e1d1d97a2c977867d3d7.jpeg",
+    "static/media/Fegden-monitor.png": "/fedgen-landing-page/static/media/Fegden-monitor.7e416803c8999740630b.png",
     "static/media/dstn-logo.png": "/fedgen-landing-page/static/media/dstn-logo.742ff599b8c5ec7e9956.png",
     "static/media/covenant-logo.png": "/fedgen-landing-page/static/media/covenant-logo.9b81e823650bc9b149bb.png",
     "static/media/capic-logo.png": "/fedgen-landing-page/static/media/capic-logo.1844b884deed5530a781.png",
@@ -39,11 +42,11 @@
     "static/media/google-logo.png": "/fedgen-landing-page/static/media/google-logo.9814c37bc9103b80f05d.png",
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
-    "main.4db2806d.css.map": "/fedgen-landing-page/static/css/main.4db2806d.css.map",
-    "main.fc76eda4.js.map": "/fedgen-landing-page/static/js/main.fc76eda4.js.map"
+    "main.ec272513.css.map": "/fedgen-landing-page/static/css/main.ec272513.css.map",
+    "main.3e7f6b8a.js.map": "/fedgen-landing-page/static/js/main.3e7f6b8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4db2806d.css",
-    "static/js/main.fc76eda4.js"
+    "static/css/main.ec272513.css",
+    "static/js/main.3e7f6b8a.js"
   ]
 }
