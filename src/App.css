@@ -946,15 +946,18 @@ span {
 }
 
 .Event-project-image {
-  width: 50%; /* Display the image at 50% of its original size */
+  width: 50%;
+  /* Display the image at 50% of its original size */
   height: auto;
   border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.3s ease; /* Smooth transition for scaling */
+  transition: transform 0.3s ease;
+  /* Smooth transition for scaling */
 }
 
 .Event-project-image:hover {
-  transform: scale(1.1); /* Slight zoom effect on hover */
+  transform: scale(1.1);
+  /* Slight zoom effect on hover */
 }
 
 .Event-project-title {
@@ -1001,7 +1004,7 @@ span {
 
 .Event-full-screen-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
   object-fit: contain;
 }

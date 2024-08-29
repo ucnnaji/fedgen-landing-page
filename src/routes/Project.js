@@ -13,7 +13,7 @@ function Project() {
         <>
             <div className="central">
                 <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '35vh' }} />
-                <h2>Projects</h2>
+                <h2>PROJECTS</h2>
             </div>
 
             <div className="projects-container">

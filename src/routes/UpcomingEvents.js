@@ -3,8 +3,7 @@ import "../App.css";
 import containerImage from './Container-image.png';
 
 function UpcomingEvents() {
-    const [isOpen, setIsOpen] = useState(false);
-    const [currentImage, setCurrentImage] = useState('');
+   
 
     const projects = [
         {
@@ -15,26 +14,18 @@ function UpcomingEvents() {
         },
     ];
 
-    const openModal = (image) => {
-        setCurrentImage(image);
-        setIsOpen(true);
-    };
-
-    const closeModal = () => {
-        setIsOpen(false);
-        setCurrentImage('');
-    };
+   
 
     return (
         <>
-            <div className="Event-central">
+            <div className="central">
                 <img
                     src={containerImage}
                     alt="My Local Image"
-                    className="Event-right-image"
+                    className="right-image"
                     style={{ height: '35vh' }}
                 />
-
+                <h2>UPCOMING EVENTS</h2>
             </div>
 
             <div className="Event-events-container">
@@ -44,7 +35,7 @@ function UpcomingEvents() {
                             src={require(`../images/${project.image}`)}
                             alt={project.title}
                             className="Event-project-image"
-                            onClick={() => openModal(require(`../images/${project.image}`).default)}
+                         
                         />
                         <br />
                         <a href={project.link}>
@@ -54,13 +45,7 @@ function UpcomingEvents() {
                 ))}
             </div>
 
-            {isOpen && (
-                <div className="Event-modal-overlay" onClick={closeModal}>
-                    <div className="Event-modal-content">
-                        <img src={currentImage} alt="Full screen" className="Event-full-screen-image" />
-                    </div>
-                </div>
-            )}
+            
         </>
     );
 }

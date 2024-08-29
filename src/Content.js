@@ -17,16 +17,29 @@ const Content = ({ data }) => {
                                     alt="Article"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom style={{ fontWeight:'200' }} component="div">
+                                    <Typography
+                                        gutterBottom
+                                        style={{
+                                            fontWeight: '300',
+                                            fontFamily: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
+                                        }}
+                                        component="div"
+                                    >
                                         {result.title}
                                     </Typography>
-                                    <Typography variant="body2" color="text.secondary">
+                                    <Typography
+                                        variant="body2"
+                                        color="text.secondary"
+                                        style={{
+                                            fontFamily: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
+                                        }}
+                                    >
                                         {result.Description}
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                
+
                                 <Button size="small" variant="outlined" onClick={() => window.location.href = result.link}>Read Article</Button>
                             </CardActions>
                         </Card>
