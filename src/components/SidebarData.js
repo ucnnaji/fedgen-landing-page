@@ -19,6 +19,13 @@ export const SidebarData = [
   },
 
   {
+    title: "Projects",
+    path: "/Project",
+    icon: <MdOutlinePeopleAlt />,
+    cName: "nav-text",
+  },
+
+  {
     title: "People",
     path: "/People",
     icon: <MdOutlinePeopleAlt />,

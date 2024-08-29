@@ -3,7 +3,7 @@ import './LeadershipCloud.css';
 
 function Leadership() {
   const leadershipData = [
-    
+
     {
       university: 'Landmark University',
       color: '#008000',

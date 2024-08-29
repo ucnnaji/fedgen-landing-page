@@ -14,7 +14,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 
-import News from "./routes/News";
+import Project from "./routes/Project";
 import People from "./routes/People";
 import UpcomingEvents from "./routes/UpcomingEvents";
 import PublishedArticle from "./routes/PublishedArticle";
@@ -41,6 +41,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<AppLayout />}>
         <Route index element={<Home />} />
+        <Route path="Project" element={<Project />} />
         <Route path="People" element={<People />} />
         <Route path="PublishedArticle" element={<PublishedArticle />} />
         <Route path="UpcomingEvents" element={<UpcomingEvents />} />

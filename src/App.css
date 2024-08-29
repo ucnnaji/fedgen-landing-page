@@ -57,26 +57,29 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap:60px;
+  gap: 60px;
 }
 
 .team-icon-prof {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for the effect */
 }
 
 .team-link:hover .team-icon-prof {
-  transform: scale(1.1); /* Scales the image to 110% of its original size */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+  transform: scale(1.1);
+  /* Scales the image to 110% of its original size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* Adds a shadow */
 }
 
 
-.people-contact{
-  marginTop: 5px; 
+.people-contact {
+  marginTop: 5px;
   gap: 1px;
-  padding:2px; 
-  display: flex; 
-  color:rgb(243, 91, 91);
-  margin:3px;
+  padding: 2px;
+  display: flex;
+  color: rgb(243, 91, 91);
+  margin: 3px;
   border-radius: 15px;
 }
 
@@ -142,11 +145,11 @@
 .partners-heading {
   text-align: center;
   margin-top: 20px;
-  
+
   font-weight: 600;
   font-size: 20px;
   color: #234467;
-  
+
   margin-bottom: 10px;
 }
 
@@ -181,7 +184,7 @@
 }
 
 .footer-content {
-  
+
   max-width: 100%;
   max-height: 100%;
   padding: 20px 30px;
@@ -218,7 +221,7 @@
 .footer-bottom {
   margin-top: 10px;
   font-size: 0.9rem;
- }
+}
 
 /* Global Container Styling */
 .container {
@@ -234,11 +237,12 @@
 
 /* Title Styling */
 .title {
-  font-size: 22px;/* Responsive font size based on viewport width */
+  font-size: 22px;
+  /* Responsive font size based on viewport width */
   max-width: 100%;
   font-weight: 700;
   color: #234467;
-  text-decoration:solid;
+  text-decoration: solid;
   line-height: 1.5;
   margin-bottom: 8px;
 }
@@ -253,7 +257,7 @@
   text-align: justify;
   line-height: 1.8;
   margin: 8px;
-  
+
 }
 
 @media (min-width: 768px) {
@@ -285,12 +289,14 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Thick shadow */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  /* Thick shadow */
 }
 
 .request-button:hover {
   background-color: #ee5f3c;
-  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+  /* Stronger shadow on hover */
 }
 
 /* Media Queries for Responsive Design */
@@ -322,14 +328,16 @@
 }
 
 .heading {
-  font-size: 20px; /* Adjusted for responsiveness */
+  font-size: 20px;
+  /* Adjusted for responsiveness */
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 10px;
 }
 
 .capdescription {
-  font-size: 1.1rem; /* Adjusted for responsiveness */
+  font-size: 1.1rem;
+  /* Adjusted for responsiveness */
   font-weight: 100;
   line-height: 1.5;
   color: #504f4f;
@@ -348,7 +356,7 @@
 }
 
 .card {
-  background-color: #75a1ec ;
+  background-color: #75a1ec;
   padding: 10px;
   width: 180px;
   height: 180px;
@@ -383,19 +391,23 @@
 
 @media (max-width: 768px) {
   .heading {
-    font-size: 1.5rem; /* Smaller for tablet */
+    font-size: 1.5rem;
+    /* Smaller for tablet */
   }
 
   .capdescription {
-    font-size: 0.9rem; /* Adjusted for smaller screens */
+    font-size: 0.9rem;
+    /* Adjusted for smaller screens */
   }
 
   .card-container {
-    flex-direction: column; /* Stack cards on smaller screens */
+    flex-direction: column;
+    /* Stack cards on smaller screens */
   }
 
   .card {
-    width: 100%; /* Full width for cards on smaller screens */
+    width: 100%;
+    /* Full width for cards on smaller screens */
     max-width: 320px;
     height: auto;
     margin-bottom: 20px;
@@ -404,7 +416,8 @@
 
 @media (max-width: 480px) {
   .heading {
-    font-size: 1.25rem; /* Even smaller for mobile */
+    font-size: 1.25rem;
+    /* Even smaller for mobile */
   }
 
   .capdescription {
@@ -412,11 +425,13 @@
   }
 
   .card h2 {
-    font-size: 1.5rem; /* Smaller heading in cards */
+    font-size: 1.5rem;
+    /* Smaller heading in cards */
   }
 
   .card p {
-    font-size: 1rem; /* Adjusted for readability on small screens */
+    font-size: 1rem;
+    /* Adjusted for readability on small screens */
   }
 
   .icon {
@@ -523,7 +538,7 @@
 }
 
 .central img {
-  
+
   object-fit: cover;
 }
 
@@ -566,7 +581,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%; /* Set the width of the container */
+  width: 50%;
+  /* Set the width of the container */
   margin: 0 auto;
 }
 
@@ -585,7 +601,7 @@
 }
 
 .text-container h1 {
-  font-size:x-large;
+  font-size: x-large;
   text-align: center;
   text-align: ;
 }
@@ -638,7 +654,8 @@
   font-size: 2rem;
   background: none;
   color: #000;
-  box-shadow: 0px 15px 15px rgba(0, 42, 105, 0.3); /* Thick shadow */
+  box-shadow: 0px 15px 15px rgba(0, 42, 105, 0.3);
+  /* Thick shadow */
 
 }
 
@@ -714,7 +731,7 @@ span {
 /* Home.css */
 .Home {
   text-align: center;
- 
+
 }
 
 .Home-header {
@@ -830,8 +847,6 @@ span {
   height: 100%;
 }
 
-
-
 .resource-card .value {
   position: absolute;
   top: 90px;
@@ -851,6 +866,148 @@ span {
   text-align: center;
 }
 
+.projects-container {
+  margin-right: 30%;
+  margin-left: 30%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 23px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  height: 82%;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
+.project-title {
+  text-decoration: none;
+  font-size: 15px;
+  color: #504f4f;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.project-button {
+  margin-top: 1px;
+  padding: 6px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 
+/* Container and central elements */
+.Event-central {
+  text-align: center;
+  margin: 20px;
+}
 
+.Event-right-image {
+  border-radius: 8px;
+}
+
+.Event-events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card and Image Styles */
+.Event-project-card {
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Event-project-image {
+  width: 50%; /* Display the image at 50% of its original size */
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.Event-project-image:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.Event-project-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.Event-project-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Event-project-button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Styles */
+.Event-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.Event-modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.Event-full-screen-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.Event-modal-content img {
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
+}

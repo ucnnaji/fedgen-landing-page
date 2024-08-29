@@ -23,15 +23,15 @@ function PublishedArticle() {
             case '2023':
                 setData(SecondData);  // Use the appropriate data for 2023
                 break;
-            
+
             case '2022':
                 setData(ThirdData);  // Use the appropriate data for 2023
                 break;
-            
+
             case '2021':
                 setData(FourthData);  // Use the appropriate data for 2023
                 break;
-            
+
             case '2020':
                 setData(FifthData);  // Use the appropriate data for 2023
                 break;
@@ -48,7 +48,7 @@ function PublishedArticle() {
     return (
         <>
             <div className="central">
-                <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '40vh' }}/>
+                <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '35vh' }} />
                 <h2>PUBLISHED ARTICLES</h2>
             </div>
 

@@ -40,18 +40,18 @@ function Home() {
                 <div className="text-container">
                     <h1>FEDGEN Cloud</h1>
                     <p>Federated Genomics Cloud infrastructure</p>
-                    
+
                 </div>
             </div>
 
             <div className="container">
                 <h1 className="title">What is FEDGEN Cloud?</h1>
                 <p className="home-description">
-                    The Federated Genomic (FEDGEN) cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis, 
-                    and collaboration across the continent, addressing unique genetic research challenges and advancing precision medicine. FEDGEN's cloud infrastructure is revolutionizing genomic research in Africa by providing a robust platform for storing and analyzing 
+                    The Federated Genomic (FEDGEN) cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis,
+                    and collaboration across the continent, addressing unique genetic research challenges and advancing precision medicine. FEDGEN's cloud infrastructure is revolutionizing genomic research in Africa by providing a robust platform for storing and analyzing
                     vast amounts of genetic data. Its in-memory computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex genetic information and accelerate the discovery of new treatments and therapies.
-                    The FEDGEN platform not only enhances the efficiency of genomic research but also democratizes access to advanced computational tools, enabling institutions and researchers, regardless of their location or resources, to participate in cutting-edge studies. 
-                    This collaboration fosters a more inclusive research environment, which is essential for addressing the continent's diverse health challenges. Ultimately, FEDGEN is set to revolutionize precision medicine in Africa by providing a robust, scalable, and innovative 
+                    The FEDGEN platform not only enhances the efficiency of genomic research but also democratizes access to advanced computational tools, enabling institutions and researchers, regardless of their location or resources, to participate in cutting-edge studies.
+                    This collaboration fosters a more inclusive research environment, which is essential for addressing the continent's diverse health challenges. Ultimately, FEDGEN is set to revolutionize precision medicine in Africa by providing a robust, scalable, and innovative
                     platform that drives forward genetic research, accelerates discoveries, and leads to better health outcomes for millions of people.
                 </p>
                 <div className="button-container">
@@ -62,32 +62,32 @@ function Home() {
             <div className="section">
                 <h1 className="heading">Our Cloud Resource Capacity</h1>
                 <p className="capdescription">
-                The FEDGEN cloud infrastructure is designed to support the computationally demanding needs of genomic research across Africa, featuring high-performance nodes equipped with cutting-edge hardware. These nodes are configured with up to 1.5 TB of RAM, providing immense memory capacity to handle the complex tasks involved in processing and analyzing massive genomic datasets. This extensive memory allocation is crucial for real-time data processing, allowing researchers to perform large-scale computations without latency, which is particularly important for tasks like genome assembly, and the application of machine learning models to genetic data.
+                    The FEDGEN cloud infrastructure is designed to support the computationally demanding needs of genomic research across Africa, featuring high-performance nodes equipped with cutting-edge hardware. These nodes are configured with up to 1.5 TB of RAM, providing immense memory capacity to handle the complex tasks involved in processing and analyzing massive genomic datasets. This extensive memory allocation is crucial for real-time data processing, allowing researchers to perform large-scale computations without latency, which is particularly important for tasks like genome assembly, and the application of machine learning models to genetic data.
                 </p>
                 <div className="card-container">
                     <div className="card">
-                        <TbCpu size={60}/>
+                        <TbCpu size={60} />
                         <h2>120</h2>
                         <p>CPU cores</p>
                     </div>
                     <div className="card">
-                        <CiServer size={62}/>
+                        <CiServer size={62} />
                         <h2>8</h2>
                         <p>GPU Servers</p>
                     </div>
 
                     <div className="card">
-                        <HiOutlineServerStack size={61}/>
+                        <HiOutlineServerStack size={61} />
                         <h2>18</h2>
                         <p>CPU Servers</p>
                     </div>
                     <div className="card">
-                        <TiCloudStorage size={60}/>
+                        <TiCloudStorage size={60} />
                         <h2>32</h2>
                         <p>TB of Storage</p>
                     </div>
                     <div className="card">
-                        <BsCpuFill size={55}/>
+                        <BsCpuFill size={55} />
                         <h2>4</h2>
                         <p>TB of RAM</p>
                     </div>
@@ -97,10 +97,10 @@ function Home() {
             <div className="team-section">
                 <h1 className="team-subheading">Core Implementation Team</h1>
 
-               
+
                 <div className="team-container-prof">
-                    
-                <div className="team-member-prof">
+
+                    <div className="team-member-prof">
                         <a href="https://www.linkedin.com/in/emmanuel-adetiba-ph-d-bab79082/">
                             <img src={group2} alt="Adetiba" className="team-icon-prof" />
                         </a>
@@ -110,7 +110,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div  className="team-container">    
+                <div className="team-container">
 
                     <div className="team-member">
                         <a href="https://archive2.covenantuniversity.edu.ng/Profiles/Akanle-Matthew-Boladele">
@@ -138,7 +138,7 @@ function Home() {
 
                     </div>
 
-                
+
                     <div className="team-member">
                         <a href="https://www.linkedin.com/in/john-wejin-431141112/">
                             <img src={group6} alt="Mr John" className="team-icon" />
@@ -168,44 +168,44 @@ function Home() {
 
 
                     <div className="partners-section">
-                <h1 className="partners-heading"> Academic & Industry Partners</h1>
-                <div className="partners-grid">
-                    <div className="partner">
-                        <img src={aspmirlogo} alt="DSTN" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
-                    <div className="partner">
-                        <img src={capiclogo} alt="AFD" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
-                    <div className="partner">
-                        <img src={covenantlogo} alt="CEA MITIC" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
-                    <div className="partner">
-                        <img src={googlelogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
+                        <h1 className="partners-heading"> Academic & Industry Partners</h1>
+                        <div className="partners-grid">
+                            <div className="partner">
+                                <img src={aspmirlogo} alt="DSTN" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
+                            <div className="partner">
+                                <img src={capiclogo} alt="AFD" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
+                            <div className="partner">
+                                <img src={covenantlogo} alt="CEA MITIC" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
+                            <div className="partner">
+                                <img src={googlelogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
 
-                    <div className="partner">
-                        <img src={innaialogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
+                            <div className="partner">
+                                <img src={innaialogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
 
-                    <div className="partner">
-                        <img src={dstnlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
+                            <div className="partner">
+                                <img src={dstnlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
 
-                    <div className="partner">
-                        <img src={cealogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
+                            <div className="partner">
+                                <img src={cealogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
 
-                    <div className="partner">
-                        <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                    </div>
-
-                   
-
-                </div>
-            </div>
+                            <div className="partner">
+                                <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                            </div>
 
 
-                 
+
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
 
@@ -213,25 +213,25 @@ function Home() {
                 <LeadershipCloud />
             </div>
 
-          
+
 
             <footer className="footer">
-                        <div className="footer-content">
-                            <div className="footer-logo">
-                                <h1>FEDGEN Cloud</h1>
-                            </div>
-                           
-                            <div className="footer-social">
-                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={23} color="grey"/></a>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter size={23} color="grey"/></a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} color="grey"/></a>
-                            </div>
+                <div className="footer-content">
+                    <div className="footer-logo">
+                        <h1>FEDGEN Cloud</h1>
+                    </div>
 
-                            <div className="footer-bottom">
-                                <p>&copy; {new Date().getFullYear()} FEDGEN. All rights reserved.</p>
-                            </div>
-                        </div>
-                        
+                    <div className="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={23} color="grey" /></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter size={23} color="grey" /></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={23} color="grey" /></a>
+                    </div>
+
+                    <div className="footer-bottom">
+                        <p>&copy; {new Date().getFullYear()} FEDGEN. All rights reserved.</p>
+                    </div>
+                </div>
+
             </footer>
 
         </>
