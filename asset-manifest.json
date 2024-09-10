@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/fedgen-landing-page/static/css/main.72626183.css",
-    "main.js": "/fedgen-landing-page/static/js/main.1674697e.js",
+    "main.css": "/fedgen-landing-page/static/css/main.781fc566.css",
+    "main.js": "/fedgen-landing-page/static/js/main.aad6e879.js",
     "static/media/Takenga Claude Mbusa.png": "/fedgen-landing-page/static/media/Takenga Claude Mbusa.bcb4b9c71ecc79ff3b0a.png",
     "static/media/Dr_Badejo.jpeg": "/fedgen-landing-page/static/media/Dr_Badejo.2fb4eddb4a5f421b669e.jpeg",
     "static/media/group2.jpeg": "/fedgen-landing-page/static/media/group2.9480e5e116d8d90c8291.jpeg",
     "static/media/Ayodeji Adegoke.jpg": "/fedgen-landing-page/static/media/Ayodeji Adegoke.f1815eda553c590b4f2a.jpg",
-    "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.e7908cb8e7429e37513e.png",
     "static/media/Dr-Thakur1.jpeg": "/fedgen-landing-page/static/media/Dr-Thakur1.3956e0bfa69c4f82a709.jpeg",
     "static/media/Dr Osin.jpg": "/fedgen-landing-page/static/media/Dr Osin.57fa2e3b1e729d754dd7.jpg",
     "static/media/Obiyemi Obiseye.jpg": "/fedgen-landing-page/static/media/Obiyemi Obiseye.79f878f20797afd1a1e2.jpg",
@@ -14,6 +13,7 @@
     "static/media/Dr_Abdultaofeek Abayomi.jpg": "/fedgen-landing-page/static/media/Dr_Abdultaofeek Abayomi.5189d3118ea0a49ce0d5.jpg",
     "static/media/dr-adeshina.jpg": "/fedgen-landing-page/static/media/dr-adeshina.35a35d76ea7d32b1a715.jpg",
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
+    "static/media/Container-image.jpg": "/fedgen-landing-page/static/media/Container-image.e328274158a2a7a8e738.jpg",
     "static/media/group1.png": "/fedgen-landing-page/static/media/group1.c74cd21dbde4f8972e49.png",
     "static/media/group7.jpg": "/fedgen-landing-page/static/media/group7.2cdcd680302316b22db1.jpg",
     "static/media/Monthly-Research-August.jpg": "/fedgen-landing-page/static/media/Monthly-Research-August.759ffe7aca3e5d5fb5a1.jpg",
@@ -40,13 +40,14 @@
     "static/media/prof-dame-diong.jpeg": "/fedgen-landing-page/static/media/prof-dame-diong.9d756a6e95a0c41fe10b.jpeg",
     "static/media/dr-popoola.jpeg": "/fedgen-landing-page/static/media/dr-popoola.94a84f9d2c92f50d830f.jpeg",
     "static/media/google-logo.png": "/fedgen-landing-page/static/media/google-logo.9814c37bc9103b80f05d.png",
+    "static/media/Capicace-logo.png": "/fedgen-landing-page/static/media/Capicace-logo.a8050b7cb12a09d0f027.png",
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
     "index.html": "/fedgen-landing-page/index.html",
-    "main.72626183.css.map": "/fedgen-landing-page/static/css/main.72626183.css.map",
-    "main.1674697e.js.map": "/fedgen-landing-page/static/js/main.1674697e.js.map"
+    "main.781fc566.css.map": "/fedgen-landing-page/static/css/main.781fc566.css.map",
+    "main.aad6e879.js.map": "/fedgen-landing-page/static/js/main.aad6e879.js.map"
   },
   "entrypoints": [
-    "static/css/main.72626183.css",
-    "static/js/main.1674697e.js"
+    "static/css/main.781fc566.css",
+    "static/js/main.aad6e879.js"
   ]
 }
