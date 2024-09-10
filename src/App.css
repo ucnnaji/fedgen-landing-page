@@ -250,27 +250,16 @@
 
 /* Description Styling */
 .home-description {
-  font-size: 2.5vw;
+  font-size: 16px;
   /* Responsive font size */
   font-weight: 300;
   color: #474545;
   text-align: justify;
-  line-height: 1.8;
-  margin: 8px;
+  line-height: 2;
+  margin: 10px;
 
 }
 
-@media (min-width: 768px) {
-  .home-description {
-    font-size: 1.5vw;
-  }
-}
-
-@media (min-width: 1024px) {
-  .home-description {
-    font-size: 1.2vw;
-  }
-}
 
 /* Button Container Styling */
 .button-container {
@@ -303,10 +292,6 @@
 @media (max-width: 768px) {
   .title {
     font-size: 5vw;
-  }
-
-  .home-description {
-    font-size: 3.5vw;
   }
 
   .request-button {
@@ -442,7 +427,6 @@
 
 
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -542,8 +526,6 @@
   object-fit: cover;
 }
 
-
-
 .central h2 {
   position: absolute;
   top: 50%;
@@ -551,6 +533,7 @@
   transform: translate(-50%, -50%);
   z-index: 1;
   color: #fff;
+  font-size: 28px;
 
 }
 
@@ -572,7 +555,7 @@
   color: #ffffff;
   display: inline-block;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 70px;
   line-height: 1.5;
   /* Adjust line height for spacing */
 }
@@ -589,29 +572,28 @@
 .line {
   flex: 1;
   border: none;
-  height: 2px;
-  background-color: red;
+  height: 1px;
+  background-color: rgb(119, 173, 243);
   margin: 0 10px;
 }
 
 .text {
-  font-style: italic;
-  color: #000000;
+  font-style:normal;
+  color: #272727;
   font-weight: 600;
 }
 
 .text-container h1 {
-  font-size: x-large;
+  font-weight: 600;
+  font-size: 36px;
   text-align: center;
-  text-align: ;
 }
 
 
 .text-container p {
-  font-size: 17px;
+  font-size: 16px;
   text-align: left;
   text-align: center;
-
 }
 
 #home-text {
@@ -628,26 +610,63 @@
 }
 
 
-.navbar {
-  background-color: #ffffff;
-  height: 50px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  z-index: 999;
-}
-
+/* Main container for navigation */
 .navigate {
   display: flex;
+  margin-top: 5px;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  /* Ensures the container spans the full width of its parent */
+  /* Aligns items (logo and navbar) vertically center */
+  padding-left: 20px;
+  /* Adjust padding if needed */
 }
 
+/* Style for images */
 .navigate img {
-  margin-left: 10px;
+  margin-left: 6px;
+  /* Adds space between logos */
+  margin-right: 10px;
+  /* Space between logo and Navbar */
+  max-height: 80px;
+  /* Controls the image height */
 }
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 780px;
+  /* Space between logo and nav items */
+}
+
+.nav-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(2, 2, 61);
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-right: 10px;
+
+}
+
+.nav-text:hover {
+  background-color: #e0e0e0;
+  color: darkblue;
+  font-weight: 500;
+  transform: translateY(-2px);
+}
+
+.nav-text span {
+  margin-left: 6px;
+  margin-right: 15px;
+  /* Space between the icon and text */
+}
+
+
 
 .menu-bars {
   margin-right: 14px;
@@ -1014,3 +1033,80 @@ span {
   max-width: 100%;
   max-height: 100%;
 }
+
+/* Base container styling for all devices */
+.container {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 35px;
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Media Queries for different device sizes */
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+  }
+
+  .capdescription {
+    font-size: 0.9rem;
+  }
+
+  .request-button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1rem;
+  }
+
+  .capdescription {
+    font-size: 0.85rem;
+  }
+
+  .request-button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 20px;
+  }
+}
+
+

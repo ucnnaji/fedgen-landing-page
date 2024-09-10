@@ -39,15 +39,15 @@ function Home() {
                 <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }} />
                 <div className="text-container">
                     <h1>FEDGEN Cloud</h1>
-                    <p>Federated Genomics Cloud infrastructure</p>
+                    <p>Federated General Omics</p>
 
                 </div>
             </div>
 
             <div className="container">
-                <h1 className="title">What is FEDGEN Cloud?</h1>
+                <h1 className="title">FEDGEN Cloud</h1>
                 <p className="home-description">
-                    The Federated Genomic (FEDGEN) cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis,
+                    The Federated General Omics cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis,
                     and collaboration across the continent, addressing unique genetic research challenges and advancing precision medicine. FEDGEN's cloud infrastructure is revolutionizing genomic research in Africa by providing a robust platform for storing and analyzing
                     vast amounts of genetic data. Its in-memory computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex genetic information and accelerate the discovery of new treatments and therapies.
                     The FEDGEN platform not only enhances the efficiency of genomic research but also democratizes access to advanced computational tools, enabling institutions and researchers, regardless of their location or resources, to participate in cutting-edge studies.
@@ -166,8 +166,20 @@ function Home() {
 
                     </div>
 
+                    <br />
 
-                    <div className="partners-section">
+
+
+
+                </div>
+            </div>
+
+            <div>
+                <LeadershipCloud />
+            </div>
+
+
+            <div className="partners-section">
                         <h1 className="partners-heading"> Academic & Industry Partners</h1>
                         <div className="partners-grid">
                             <div className="partner">
@@ -203,15 +215,6 @@ function Home() {
 
                         </div>
                     </div>
-
-
-
-                </div>
-            </div>
-
-            <div>
-                <LeadershipCloud />
-            </div>
 
 
 

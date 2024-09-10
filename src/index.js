@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import mainLogo from '../src/fedgen-logo.png';
+import nextlogo from '../src/routes/Capicace-logo.png';
 
 import {
   createBrowserRouter,
@@ -26,9 +27,17 @@ const AppLayout = () => (
   <>
 
     <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={mainLogo} alt="My Local Image" style={{ width: '100px', maxHeight: '80px', maxWidth: '200%'}} />
+      <img src={mainLogo} alt="Main Logo" style={{ width: '83px', maxHeight: '80px', maxWidth: '200%' }} />
+      <img src={nextlogo} alt="Next Logo" style={{ width: '30px', maxHeight: '29px', maxWidth: '200%', marginLeft: '10px' }} />
       <Navbar />
     </div>
+  
+
+    <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
+
+    </div>
+
+    <hr style={{ border: 'none', borderTop: '0.1px solid #f0f0f0', margin: '1px 0' }} />
 
     <Outlet />
 

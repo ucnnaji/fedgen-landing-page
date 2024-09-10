@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../App.css";
-import containerImage from './Container-image.png';
+import containerImage from './Container-image.jpg';
 
 function UpcomingEvents() {
    
