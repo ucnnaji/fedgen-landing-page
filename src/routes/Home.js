@@ -38,8 +38,8 @@ function Home() {
             <div className="Homecentral">
                 <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }} />
                 <div className="text-container">
-                    <h1>FEDGEN Cloud</h1>
-                    <p>Federated General Omics</p>
+                    <h1>Federated General Omics Cloud</h1>
+                    <p></p>
 
                 </div>
             </div>
@@ -92,91 +92,13 @@ function Home() {
                         <p>TB of RAM</p>
                     </div>
                 </div>
-            </div>
 
-            <div className="team-section">
-                <h1 className="team-subheading">Core Implementation Team</h1>
-
-
-                <div className="team-container-prof">
-
-                    <div className="team-member-prof">
-                        <a href="https://www.linkedin.com/in/emmanuel-adetiba-ph-d-bab79082/">
-                            <img src={group2} alt="Adetiba" className="team-icon-prof" />
-                        </a>
-                        <p className="role">Prof. E. Adetiba</p>
-                        <p className="name">Founding Principal Investigator</p>
-                        <hr />
-                    </div>
-                </div>
-
-                <div className="team-container">
-
-                    <div className="team-member">
-                        <a href="https://archive2.covenantuniversity.edu.ng/Profiles/Akanle-Matthew-Boladele">
-                            <img src={group3} alt="Mr John" className="team-icon" />
-                        </a>
-                        <p className="role">Engr. Matthew Boladele AKANLE</p>
-                        <p className="name">Lead System Engineer</p>
-
-                    </div>
-                    <div className="team-member">
-                        <a href="https://www.linkedin.com/in/priscilla-ajayi/">
-                            <img src={group4} alt="Priscilla Ajayi" className="team-icon" />
-                        </a>
-                        <p className="role">Mrs Priscilla O. AJAYI</p>
-                        <p className="name">Lead Software Developer</p>
-
-                    </div>
-
-                    <div className="team-member">
-                        <a href="https://www.linkedin.com/in/sweetwilliams-faith-54ab74117">
-                            <img src={group1} alt="Mrs. Sweetwilliams" className="team-icon" />
-                        </a>
-                        <p className="role">Engr. (Mrs) Olubunmi F. Sweetwilliams</p>
-                        <p className="name">System Engineer</p>
-
-                    </div>
-
-
-                    <div className="team-member">
-                        <a href="https://www.linkedin.com/in/john-wejin-431141112/">
-                            <img src={group6} alt="Mr John" className="team-icon" />
-                        </a>
-                        <p className="role">John Wejin</p>
-                        <p className="name">System Engineering Intern</p>
-
-                    </div>
-
-                    <div className="team-member">
-                        <a href="https://www.linkedin.com/in/uche-josiah-47386618b/">
-                            <img src={group7} alt="Mr Uche" className="team-icon" />
-                        </a>
-                        <p className="role">Uche J. Nnaji</p>
-                        <p className="name">System Engineering Intern </p>
-
-                    </div>
-
-                    <div className="team-member">
-                        <a href="https://www.linkedin.com/in/festusojesanmi/">
-                            <img src={group5} alt="Festus Ojesanmi" className="team-icon" />
-                        </a>
-                        <p className="role">Festus Ojesanmi</p>
-                        <p className="name"> Software Development Intern</p>
-
-                    </div>
-
-                    <br />
-
-
-
-
-                </div>
-            </div>
-
-            <div>
                 <LeadershipCloud />
             </div>
+
+           
+
+           
 
 
             <div className="partners-section">
@@ -215,7 +137,6 @@ function Home() {
 
                         </div>
                     </div>
-
 
 
             <footer className="footer">

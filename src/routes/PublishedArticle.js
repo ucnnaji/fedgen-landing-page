@@ -4,7 +4,7 @@ import Content from "../Content.js";
 import "../PublishedArticle.css";
 
 import Data from '../Data-2024.json';
-import containerImage from './Container-image.jpg';
+import containerImage from './Container-image.png';
 import SecondData from '../Data-2023.json';  // Assuming you have another JSON file for different years
 import ThirdData from '../Data-2022.json';
 import FourthData from '../Data-2021.json';

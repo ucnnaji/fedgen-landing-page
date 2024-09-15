@@ -3,7 +3,6 @@ import { Grid, Card, CardContent, Typography, Avatar, IconButton } from '@mui/ma
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SchoolIcon from '@mui/icons-material/School'; // Use as Google Scholar icon (or any academic icon)
 
-
 import Sweets from './group1.png';
 import Bola from './group3.png';
 import John from './group6.jpeg';
@@ -68,7 +67,7 @@ const Coreteam = [
 const CoreteamCard = ({ name, title, img, linkedin, scholar }) => (
   <Card>
     <CardContent style={{ textAlign: 'center' }}>
-      <Avatar src={img} alt={name} style={{ width: 110, height: 110, margin: '0 auto' }} />
+      <Avatar src={img} alt={name} style={{ width: 140, height: 140, margin: '0 auto' }} />
       <Typography variant="h6" style={{ fontSize: '14px', fontWeight:'550' }} gutterBottom>
         {name}
       </Typography>
@@ -89,7 +88,16 @@ const CoreteamCard = ({ name, title, img, linkedin, scholar }) => (
 
 const Coreteamsection = () => (
   <Grid container spacing={4} style={{ padding: '10px' }}>
-    {Coreteam.map((prof, index) => (
+    <Grid item xs={12}>
+      <CoreteamCard 
+        name={Coreteam[1].name} 
+        title={Coreteam[1].title} 
+        img={Coreteam[1].img} 
+        linkedin={Coreteam[1].linkedin} 
+        scholar={Coreteam[1].scholar} 
+      />
+    </Grid>
+    {Coreteam.slice(0, 1).concat(Coreteam.slice(2)).map((prof, index) => (
       <Grid item xs={6} sm={4} md={4} key={index}>
         <CoreteamCard 
           name={prof.name} 

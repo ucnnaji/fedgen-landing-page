@@ -66,7 +66,7 @@ const Investigatorteam = [
 const InvestigatorteamCard = ({ name, title, img, linkedin, scholar }) => (
   <Card>
     <CardContent style={{ textAlign: 'center' }}>
-      <Avatar src={img} alt={name} style={{ width: 110, height: 110, margin: '0 auto' }} />
+      <Avatar src={img} alt={name} style={{ width: 140, height: 140, margin: '0 auto' }} />
       <Typography variant="h6" style={{ fontSize: '14px', fontWeight:'550' }} gutterBottom>
         {name}
       </Typography>

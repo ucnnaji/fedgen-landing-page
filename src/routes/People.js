@@ -1,38 +1,10 @@
 import React from 'react';
 import '../App.css';
-import containerImage from './Container-image.jpg';
+import containerImage from './Container-image.png';
 import ContactGrid from './ContactGrid'; // Import the ContactGrid component
 import ProfileCard from './ProfileCard';
 import Coreteamsection from './Coreteamsection';
-import Sweets from './group1.png';
-import group3 from './group3.png';
-import group6 from './group6.jpeg';
-import group5 from './group5.jpeg';
-import group4 from './group4.jpeg';
-import group2 from './group2.jpeg';
-import group7 from './group7.jpg';
-import group1 from './group1.png';
-import oshin from './Dr Osin.jpg';
-import idowu from './DR.OLABODE-IDOWU.jpeg';
-import funmi from './dr-funmilayo-sijuade.jpeg';
-import obiyemi from './Obiyemi Obiseye.jpg';
-import temi from './dr-temitope-oluwatosin.jpeg';
-import { FaLinkedin } from "react-icons/fa";
-import { FaGoogle } from "react-icons/fa";
-import raymond from './Dr-Raymond.jpg';
-import ayokunle from './Dr_ayokunle.jpeg';
-import abdultaofeek from './Dr_Abdultaofeek Abayomi.jpg';
-import badejo from './Dr_Badejo.jpeg';
-import ejidokun from './dr-ejidokun.jpeg';
-import thakur from './Dr-Thakur1.jpeg';
-import adeshina from './dr-adeshina.jpg';
-import popoola from './dr-popoola.jpeg';
-import subusisoMoyo from './prof-subusiso-moyo.jpeg';
-import maissaMbaye from './prof-maissa-mbaye.jpeg';
-import dameDiongue from './prof-dame-diong.jpeg';
-import ayodejiAdegoke from './Ayodeji Adegoke.jpg';
-import takengaClaude from './Takenga Claude Mbusa.png';
-import bankeOgunlana from './Banke Ogunlana Passport.jpg';
+
 import { Height } from '@mui/icons-material';
 import Coinvestigators from './Coinvestigators';
 import Cocollaborators from './Cocollaborators';
@@ -54,7 +26,7 @@ function People() {
       </div>
       <Coreteamsection />
 
-
+      <br />
       <br />
       <br />
 
@@ -64,7 +36,7 @@ function People() {
         <hr className="line" />
       </div>
       <Coinvestigators />
-
+      <br />
       <br />
       <br />
 
@@ -74,7 +46,7 @@ function People() {
         <hr className="line" />
       </div>
       <Cocollaborators />
-     
+
 
 
 

@@ -250,7 +250,7 @@
 
 /* Description Styling */
 .home-description {
-  font-size: 16px;
+  font-size: 18px;
   /* Responsive font size */
   font-weight: 300;
   color: #474545;
@@ -317,7 +317,7 @@
   /* Adjusted for responsiveness */
   font-weight: 800;
   line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .capdescription {
@@ -326,7 +326,7 @@
   font-weight: 100;
   line-height: 1.5;
   color: #504f4f;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: justify;
   margin-left: 5.8%;
   margin-right: 5.8%;
@@ -585,7 +585,7 @@
 
 .text-container h1 {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
 }
 

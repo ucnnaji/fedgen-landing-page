@@ -1,7 +1,7 @@
 import React from 'react';
 import "../App.css";
 
-import containerImage from './Container-image.jpg';
+import containerImage from './Container-image.png';
 
 function Project() {
     const projects = [
