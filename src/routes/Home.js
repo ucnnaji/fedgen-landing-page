@@ -38,8 +38,8 @@ function Home() {
             <div className="Homecentral">
                 <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }} />
                 <div className="text-container">
-                    <h1>Federated General Omics Cloud</h1>
-                    <p></p>
+                    <h1>FEDGEN</h1>
+                    <p>(Federated General Omics Cloud Infrastructure)</p>
 
                 </div>
             </div>
