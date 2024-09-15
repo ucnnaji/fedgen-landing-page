@@ -54,9 +54,13 @@ function Home() {
                     This collaboration fosters a more inclusive research environment, which is essential for addressing the continent's diverse health challenges. Ultimately, FEDGEN is set to revolutionize precision medicine in Africa by providing a robust, scalable, and innovative
                     platform that drives forward genetic research, accelerates discoveries, and leads to better health outcomes for millions of people.
                 </p>
+
                 <div className="button-container">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSduT48IQR2iBV35K769Jk1v7xvx3CmOQWTwcKJuJpeG7nYTLw/viewform" className="request-button-link">
                     <button className="request-button">Request Cloud Resources</button>
+                    </a>
                 </div>
+
             </div>
 
             <div className="section">
