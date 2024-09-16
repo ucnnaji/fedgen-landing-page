@@ -25,6 +25,7 @@ import aspmirlogo from './aspmir-logo.png';
 import capiclogo from './capic-logo.png';
 import covenantlogo from './covenant-logo.png';
 import googlelogo from './google-logo.png';
+import worldbanklogo from './World-bank-logo.png';
 import innaialogo from './innia-logo.png';
 import dstnlogo from './dstn-logo.png';
 import cealogo from './cea-logo.png';
@@ -65,18 +66,19 @@ function Home() {
 
             <div className="section">
                 <h1 className="heading">Our Cloud Resource Capacity</h1>
-                <p className="capdescription">
+                <p className="home-description">
                     The FEDGEN cloud infrastructure is designed to support the computationally demanding needs of genomic research across Africa, featuring high-performance nodes equipped with cutting-edge hardware. These nodes are configured with up to 1.5 TB of RAM, providing immense memory capacity to handle the complex tasks involved in processing and analyzing massive genomic datasets. This extensive memory allocation is crucial for real-time data processing, allowing researchers to perform large-scale computations without latency, which is particularly important for tasks like genome assembly, and the application of machine learning models to genetic data.
                 </p>
+                <br></br>
                 <div className="card-container">
                     <div className="card">
                         <TbCpu size={60} />
-                        <h2>120</h2>
+                        <h2>160</h2>
                         <p>CPU cores</p>
                     </div>
                     <div className="card">
                         <CiServer size={62} />
-                        <h2>8</h2>
+                        <h2>3</h2>
                         <p>GPU Servers</p>
                     </div>
 
@@ -87,7 +89,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <TiCloudStorage size={60} />
-                        <h2>32</h2>
+                        <h2> 41.32TB</h2>
                         <p>TB of Storage</p>
                     </div>
                     <div className="card">
@@ -96,49 +98,50 @@ function Home() {
                         <p>TB of RAM</p>
                     </div>
                 </div>
-
+                <br />
+                <br />
                 <LeadershipCloud />
             </div>
 
-           
 
-           
-
+            <br />
+            <br />
 
             <div className="partners-section">
-                        <h1 className="partners-heading"> Academic & Industry Partners</h1>
+                        <h1 className="partners-heading"> FEDGEN Sponsors</h1>
                         <div className="partners-grid">
                             <div className="partner">
-                                <img src={aspmirlogo} alt="DSTN" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={aspmirlogo} alt="DSTN" className="partner-logo" style={{ height: '40px', widows: '40px' }} />
                             </div>
                             <div className="partner">
-                                <img src={capiclogo} alt="AFD" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={capiclogo} alt="AFD" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
                             </div>
                             <div className="partner">
-                                <img src={covenantlogo} alt="CEA MITIC" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={covenantlogo} alt="CEA MITIC" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
                             </div>
                             <div className="partner">
-                                <img src={googlelogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={googlelogo} alt="Inria" className="partner-logo" style={{ height: '40px', widows: '40px' }} />
                             </div>
 
                             <div className="partner">
-                                <img src={innaialogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={worldbanklogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
                             </div>
 
                             <div className="partner">
-                                <img src={dstnlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={innaialogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
                             </div>
 
                             <div className="partner">
-                                <img src={cealogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={dstnlogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
                             </div>
 
                             <div className="partner">
-                                <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                                <img src={cealogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
                             </div>
 
-
-
+                            <div className="partner">
+                                <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                            </div>
                         </div>
                     </div>
 
@@ -146,7 +149,7 @@ function Home() {
             <footer className="footer">
                 <div className="footer-content">
                     <div className="footer-logo">
-                        <h1>FEDGEN Cloud</h1>
+                        <h1>FEDGEN</h1>
                     </div>
 
                     <div className="footer-social">

@@ -1,54 +1,53 @@
 import React from 'react';
 import './LeadershipCloud.css';
 
+import landmarkLogo from './images/landmark-logo.png';
+import afeBabalolaLogo from './images/Afe.png';
+import ulpglCongoLogo from './images/ulpgl.png';
+import gastonBergerLogo from './images/gb.png';
+import grandBassamLogo from './images/ugb-logo.png';
+
 function Leadership() {
   const leadershipData = [
-
     {
       university: 'Landmark University',
       color: '#008000',
-      members: ['Prof (co-PI)'],
+      logo: landmarkLogo, 
     },
     {
       university: 'Afe Babalola University',
       color: '#3865A6',
-      members: ['Prof. Shola (co-PI)'],
+      logo: afeBabalolaLogo, 
     },
     {
       university: 'ULPGL Democratic Republic of Congo',
       color: '#3865A6',
-      members: ['Akella (co-PI)'],
+      logo: ulpglCongoLogo, 
     },
     {
       university: 'Gaston Berger University, St Louis, Senegal',
       color: '#B35C35',
-      members: ['Mike (co-PI)'],
+      logo: gastonBergerLogo, 
     },
     {
-      university: 'Gaston Berger University, St Louis, Senegal',
-      color: '#FF8C00',
-      members: ['Glenn Ricart (co-PI)', 'Rick McGeer'],
-    },
-
-    {
-      university: 'International University of Grand Bassam, Grand Bassam, ',
+      university: 'International University of Grand Bassam, Grand Bassam',
       color: '#202349',
-      members: ['Ricart (co-PI)'],
+      logo: grandBassamLogo,
     },
   ];
 
   return (
     <div className="leadership-section">
-      <h1 className="leadership-title">FEDGEN Partners</h1>
+      <h1 className="leadership-title">FEDGEN Academic Partners</h1>
       <div className="leadership-card-container">
         {leadershipData.map((group, index) => (
           <div key={index} className="leadership-card" style={{ borderTopColor: group.color }}>
             <h2>{group.university}</h2>
-            <ul>
-              {group.members.map((member, index) => (
-                <li key={index}>{member}</li>
-              ))}
-            </ul>
+            <img 
+              src={group.logo} 
+              alt={`${group.university} logo`} 
+              className="leadership-logo" 
+            />
           </div>
         ))}
       </div>

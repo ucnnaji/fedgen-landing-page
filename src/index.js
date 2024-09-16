@@ -27,8 +27,13 @@ const AppLayout = () => (
   <>
 
     <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
+      <a href="https://fedgen.net/" target="_blank">
       <img src={mainLogo} alt="Main Logo" style={{ width: '83px', maxHeight: '80px', maxWidth: '200%' }} />
+      </a>
+
+      <a href="https://ace.covenantuniversity.edu.ng/" target="_blank">
       <img src={nextlogo} alt="Next Logo" style={{ width: '30px', maxHeight: '29px', maxWidth: '200%', marginLeft: '10px' }} />
+      </a>
       <Navbar />
     </div>
   

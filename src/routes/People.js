@@ -232,7 +232,7 @@ function People() {
           </div>
 
           <div className="student-team-member">
-            <p className="role">Victor Akanle</p>
+            <p className="role">Victor Akunde</p>
             <p className="name">Software Development Intern</p>
           </div>
         </div>
