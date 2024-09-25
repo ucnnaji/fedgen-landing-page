@@ -40,20 +40,15 @@ function Home() {
                 <img src={containerImage} alt="My Local Image" className="right-image" style={{ height: '48vh' }} />
                 <div className="text-container">
                     <h1>FEDGEN</h1>
-                    <p>(Federated General Omics Cloud Infrastructure)</p>
+                    <p>(Federated GENeral “Omics” Cloud Infrastructure)</p>
 
                 </div>
             </div>
 
             <div className="container">
-                <h1 className="title">FEDGEN Cloud</h1>
+                <h1 className="title">Federated GENeral “Omics”(FEDGEN) Research</h1>
                 <p className="home-description">
-                    The Federated General Omics cloud infrastructure, equipped with in-memory computing and cloud AI capabilities, is paving the way for informatics-based genomic research in Africa. This cutting-edge system is designed to enhance data sharing, analysis,
-                    and collaboration across the continent, addressing unique genetic research challenges and advancing precision medicine. FEDGEN's cloud infrastructure is revolutionizing genomic research in Africa by providing a robust platform for storing and analyzing
-                    vast amounts of genetic data. Its in-memory computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex genetic information and accelerate the discovery of new treatments and therapies.
-                    The FEDGEN platform not only enhances the efficiency of genomic research but also democratizes access to advanced computational tools, enabling institutions and researchers, regardless of their location or resources, to participate in cutting-edge studies.
-                    This collaboration fosters a more inclusive research environment, which is essential for addressing the continent's diverse health challenges. Ultimately, FEDGEN is set to revolutionize precision medicine in Africa by providing a robust, scalable, and innovative
-                    platform that drives forward genetic research, accelerates discoveries, and leads to better health outcomes for millions of people.
+                The goal of the FEDerated GENeral “Omics” (FEDGEN) research project is to develop ground-breaking research artefacts on federated cloud computing, artificial intelligence and general “omics”  for precision medicine in Africa. The specific objectives are to address critical issues in Africa on research capacity, large-scale research infrastructure, early disease diagnosis, public health education, large scale “omics” data storage/analysis and disease modelling. We are continuously expanding our private High-Performance Computing (HPC) infrastructure to implement the FEDGEN Datacenter and FEDGEN Testbeds towards providing the required infrastructure for the stated specific objectives. These infrastructures are  revolutionising eHealth research in Africa by providing robust platforms for storing and analysing vast amounts of “omics” dataset that underlier malaria, breast and prostate cancers. The cloud AI and advanced computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex “omics” information and accelerate the discovery of new treatments and therapies.
                 </p>
 
                 <div className="button-container">
@@ -62,12 +57,15 @@ function Home() {
                     </a>
                 </div>
 
+                <br />
+             
+
             </div>
 
             <div className="section">
                 <h1 className="heading">Our Cloud Resource Capacity</h1>
                 <p className="home-description">
-                    The FEDGEN cloud infrastructure is designed to support the computationally demanding needs of genomic research across Africa, featuring high-performance nodes equipped with cutting-edge hardware. These nodes are configured with up to 1.5 TB of RAM, providing immense memory capacity to handle the complex tasks involved in processing and analyzing massive genomic datasets. This extensive memory allocation is crucial for real-time data processing, allowing researchers to perform large-scale computations without latency, which is particularly important for tasks like genome assembly, and the application of machine learning models to genetic data.
+                The FEDGEN platforms not only enhances the efficiency of eHealth research but also democratises access to complex hardware and software tools, enabling institutions and researchers, regardless of their locations or local resources, to participate in cutting-edge and large-scale scientific studies. This fosters an inclusive research environment, which is essential for addressing the African diverse health challenges, scientific skills deficit and computational infrastructure. Ultimately, FEDGEN is set to revolutionise federated cloud computing, cloud AI and “omics” research in Africa that will lead to accelerated discoveries, and ultimately better health outcomes for millions of people. Some of the FEGDEN related works that have been published in renowned outlets are found <a href='https://ucnnaji.github.io/fedgen-landing-page/#/PublishedArticle'>here.</a>
                 </p>
                 <br></br>
                 <div className="card-container">
