@@ -22,21 +22,25 @@ import PublishedArticle from "./routes/PublishedArticle";
 import Home from "./routes/Home";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import DataHub from "./routes/DataHub";
+import FedSec from "./routes/FedSec";
+import CloudRAN from "./routes/CloudRAN";
+import EDGEAI from "./routes/EDGE_AI";
 
 const AppLayout = () => (
   <>
 
     <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
       <a href="https://fedgen.net/" target="_blank">
-      <img src={mainLogo} alt="Main Logo" style={{ width: '83px', maxHeight: '80px', maxWidth: '200%' }} />
+        <img src={mainLogo} alt="Main Logo" style={{ width: '83px', maxHeight: '80px', maxWidth: '200%' }} />
       </a>
 
       <a href="https://ace.covenantuniversity.edu.ng/" target="_blank">
-      <img src={nextlogo} alt="Next Logo" style={{ width: '30px', maxHeight: '29px', maxWidth: '200%', marginLeft: '10px' }} />
+        <img src={nextlogo} alt="Next Logo" style={{ width: '30px', maxHeight: '29px', maxWidth: '200%', marginLeft: '10px' }} />
       </a>
       <Navbar />
     </div>
-  
+
 
     <div className="navigate" style={{ display: 'flex', alignItems: 'center' }}>
 
@@ -59,6 +63,11 @@ const App = () => (
         <Route path="People" element={<People />} />
         <Route path="PublishedArticle" element={<PublishedArticle />} />
         <Route path="UpcomingEvents" element={<UpcomingEvents />} />
+        <Route path="Datahub" element={<DataHub />} />
+        <Route path="FedSec" element={<FedSec />} />
+        <Route path="CloudRAN" element={<CloudRAN />} />
+        <Route path="EDGEAI" element={<EDGEAI />} />
+
       </Route>
     </Routes>
   </Router>

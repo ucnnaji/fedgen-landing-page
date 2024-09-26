@@ -28,21 +28,21 @@ const Investigatorteam = [
   {
     name: "Dr. Oluwadamilola Oshin",
     title: "Coordinator, ASPMIR Group and AI for Biomedical Signal Processing (AI4BSP) Working Group",
-    img: oshin, 
+    img: oshin,
     linkedin: "https://www.linkedin.com/in/oluwadamilola-oshin-ph-d-72201448/",
     scholar: "#"
   },
   {
     name: "DR. OLABODE IDOWU-BISMARK",
     title: "Coordinator, AI for Communications Systems, Cloud & High Performance Computing (AI4ComSys and CHPC) Working Group",
-    img: idowu, 
+    img: idowu,
     linkedin: "https://www.linkedin.com/in/emmanuel-adetiba-ph-d-bab79082/",
     scholar: "https://scholar.google.com/citations?user=3LTdUs0AAAAJ&hl=en"
   },
   {
     name: "Dr. Funmilayo Sijuade Moninuola",
     title: "Covenant University, Ota, Ogun State, Nigeria",
-    img: funmi, 
+    img: funmi,
     linkedin: "#",
     scholar: "#"
   },
@@ -56,18 +56,26 @@ const Investigatorteam = [
   {
     name: "Dr. Obiseye Obiyemi",
     title: "Durban University of Technology Durban, South Africa ",
-    img: temi, 
+    img: temi,
     linkedin: "https://www.linkedin.com/in/obiseye-obiyemi-b2b2706a/",
     scholar: "https://scholar.google.com/citations?hl=en&user=IqEKNhAAAAAJ",
   },
- 
+
 ];
 
 const InvestigatorteamCard = ({ name, title, img, linkedin, scholar }) => (
   <Card>
     <CardContent style={{ textAlign: 'center' }}>
       <Avatar src={img} alt={name} style={{ width: 140, height: 140, margin: '0 auto' }} />
-      <Typography variant="h6" style={{ fontSize: '14px', fontWeight:'550' }} gutterBottom>
+      <Typography
+        variant="h6"
+        style={{
+          fontSize: '14px',
+          fontWeight: '550',
+          color: '#0658b6', // Set the color for the name
+        }}
+        gutterBottom
+      >
         {name}
       </Typography>
       <Typography variant="body2" color="textSecondary">
@@ -85,16 +93,17 @@ const InvestigatorteamCard = ({ name, title, img, linkedin, scholar }) => (
   </Card>
 );
 
+
 const Coinvestigators = () => (
   <Grid container spacing={4} style={{ padding: '10px' }}>
     {Investigatorteam.map((prof, index) => (
       <Grid item xs={6} sm={4} md={4} key={index}>
         <InvestigatorteamCard
-          name={prof.name} 
-          title={prof.title} 
-          img={prof.img} 
-          linkedin={prof.linkedin} 
-          scholar={prof.scholar} 
+          name={prof.name}
+          title={prof.title}
+          img={prof.img}
+          linkedin={prof.linkedin}
+          scholar={prof.scholar}
         />
       </Grid>
     ))}

@@ -12,7 +12,7 @@ function Navbar() {
         <div className="navbar">
           {SidebarData.map((item, index) => (
             <Link key={index} to={item.path} className={item.cName}>
-              
+
               <span>{item.title}</span>
             </Link>
           ))}

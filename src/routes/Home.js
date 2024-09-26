@@ -48,24 +48,24 @@ function Home() {
             <div className="container">
                 <h1 className="title">Federated GENeral “Omics”(FEDGEN) Research</h1>
                 <p className="home-description">
-                The goal of the FEDerated GENeral “Omics” (FEDGEN) research project is to develop ground-breaking research artefacts on federated cloud computing, artificial intelligence and general “omics”  for precision medicine in Africa. The specific objectives are to address critical issues in Africa on research capacity, large-scale research infrastructure, early disease diagnosis, public health education, large scale “omics” data storage/analysis and disease modelling. We are continuously expanding our private High-Performance Computing (HPC) infrastructure to implement the FEDGEN Datacenter and FEDGEN Testbeds towards providing the required infrastructure for the stated specific objectives. These infrastructures are  revolutionising eHealth research in Africa by providing robust platforms for storing and analysing vast amounts of “omics” dataset that underlier malaria, breast and prostate cancers. The cloud AI and advanced computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex “omics” information and accelerate the discovery of new treatments and therapies.
+                    The goal of the FEDerated GENeral “Omics” (FEDGEN) research project is to develop ground-breaking research artefacts on federated cloud computing, artificial intelligence and general “omics”  for precision medicine in Africa. The specific objectives are to address critical issues in Africa on research capacity, large-scale research infrastructure, early disease diagnosis, public health education, large scale “omics” data storage/analysis and disease modelling. We are continuously expanding our private High-Performance Computing (HPC) infrastructure to implement the FEDGEN Datacenter and FEDGEN Testbeds towards providing the required infrastructure for the stated specific objectives. These infrastructures are  revolutionising eHealth research in Africa by providing robust platforms for storing and analysing vast amounts of “omics” dataset that underlier malaria, breast and prostate cancers. The cloud AI and advanced computing capabilities enable real-time data processing, allowing researchers to gain rapid insights into complex “omics” information and accelerate the discovery of new treatments and therapies.
                 </p>
 
                 <div className="button-container">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSduT48IQR2iBV35K769Jk1v7xvx3CmOQWTwcKJuJpeG7nYTLw/viewform" className="request-button-link">
-                    <button className="request-button">Request Cloud Resources</button>
+                        <button className="request-button">Request Cloud Resources</button>
                     </a>
                 </div>
 
                 <br />
-             
+
 
             </div>
 
             <div className="section">
                 <h1 className="heading">Our Cloud Resource Capacity</h1>
                 <p className="home-description">
-                The FEDGEN platforms not only enhances the efficiency of eHealth research but also democratises access to complex hardware and software tools, enabling institutions and researchers, regardless of their locations or local resources, to participate in cutting-edge and large-scale scientific studies. This fosters an inclusive research environment, which is essential for addressing the African diverse health challenges, scientific skills deficit and computational infrastructure. Ultimately, FEDGEN is set to revolutionise federated cloud computing, cloud AI and “omics” research in Africa that will lead to accelerated discoveries, and ultimately better health outcomes for millions of people. Some of the FEGDEN related works that have been published in renowned outlets are found <a href='https://ucnnaji.github.io/fedgen-landing-page/#/PublishedArticle'>here.</a>
+                    The FEDGEN platforms not only enhances the efficiency of eHealth research but also democratises access to complex hardware and software tools, enabling institutions and researchers, regardless of their locations or local resources, to participate in cutting-edge and large-scale scientific studies. This fosters an inclusive research environment, which is essential for addressing the African diverse health challenges, scientific skills deficit and computational infrastructure. Ultimately, FEDGEN is set to revolutionise federated cloud computing, cloud AI and “omics” research in Africa that will lead to accelerated discoveries, and ultimately better health outcomes for millions of people. Some of the FEGDEN related works that have been published in renowned outlets are found <a href='https://ucnnaji.github.io/fedgen-landing-page/#/PublishedArticle'>here.</a>
                 </p>
                 <br></br>
                 <div className="card-container">
@@ -106,42 +106,42 @@ function Home() {
             <br />
 
             <div className="partners-section">
-                        <h1 className="partners-heading"> FEDGEN Sponsors</h1>
-                        <div className="partners-grid">
-                            <div className="partner">
-                                <img src={aspmirlogo} alt="DSTN" className="partner-logo" style={{ height: '40px', widows: '40px' }} />
-                            </div>
-                            <div className="partner">
-                                <img src={capiclogo} alt="AFD" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
-                            </div>
-                            <div className="partner">
-                                <img src={covenantlogo} alt="CEA MITIC" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
-                            </div>
-                            <div className="partner">
-                                <img src={googlelogo} alt="Inria" className="partner-logo" style={{ height: '40px', widows: '40px' }} />
-                            </div>
-
-                            <div className="partner">
-                                <img src={worldbanklogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
-                            </div>
-
-                            <div className="partner">
-                                <img src={innaialogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
-                            </div>
-
-                            <div className="partner">
-                                <img src={dstnlogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
-                            </div>
-
-                            <div className="partner">
-                                <img src={cealogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
-                            </div>
-
-                            <div className="partner">
-                                <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
-                            </div>
-                        </div>
+                <h1 className="partners-heading"> FEDGEN Sponsors</h1>
+                <div className="partners-grid">
+                    <div className="partner">
+                        <img src={aspmirlogo} alt="DSTN" className="partner-logo" style={{ height: '40px', widows: '40px' }} />
                     </div>
+                    <div className="partner">
+                        <img src={capiclogo} alt="AFD" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                    </div>
+                    <div className="partner">
+                        <img src={covenantlogo} alt="CEA MITIC" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                    </div>
+                    <div className="partner">
+                        <img src={googlelogo} alt="Inria" className="partner-logo" style={{ height: '40px', widows: '40px' }} />
+                    </div>
+
+                    <div className="partner">
+                        <img src={worldbanklogo} alt="Inria" className="partner-logo" style={{ height: '60px', widows: '60px' }} />
+                    </div>
+
+                    <div className="partner">
+                        <img src={innaialogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                    </div>
+
+                    <div className="partner">
+                        <img src={dstnlogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                    </div>
+
+                    <div className="partner">
+                        <img src={cealogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                    </div>
+
+                    <div className="partner">
+                        <img src={oafdlogo} alt="Inria" className="partner-logo" style={{ height: '50px', widows: '50px' }} />
+                    </div>
+                </div>
+            </div>
 
 
             <footer className="footer">

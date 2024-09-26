@@ -118,7 +118,15 @@ const CocollaboratorsTeamCard = ({ name, title, img, linkedin, scholar }) => (
   <Card>
     <CardContent style={{ textAlign: 'center' }}>
       <Avatar src={img} alt={name} style={{ width: 140, height: 140, margin: '0 auto' }} />
-      <Typography variant="h6" style={{ fontSize: '14px', fontWeight: '550' }} gutterBottom>
+      <Typography
+        variant="h6"
+        style={{
+          fontSize: '14px',
+          fontWeight: '550',
+          color: '#0658b6', // Set the color for the name
+        }}
+        gutterBottom
+      >
         {name}
       </Typography>
       <Typography variant="body2" color="textSecondary">

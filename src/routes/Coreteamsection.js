@@ -43,14 +43,14 @@ const Coreteam = [
   {
     name: "John Wejin",
     title: "System Engineering Intern",
-    img: John, 
+    img: John,
     linkedin: "https://www.linkedin.com/in/john-wejin-431141112/",
     scholar: "https://scholar.google.com/citations?user=n0iFp4oAAAAJ&hl=en&oi=ao"
   },
   {
     name: "Uche J. Nnaji",
     title: "System Engineering Intern ",
-    img: Uche, 
+    img: Uche,
     linkedin: "https://www.linkedin.com/in/uche-josiah-47386618b/",
     scholar: "https://scholar.google.com/citations?user=ss-zOksAAAAJ&hl=en&oi=ao"
   },
@@ -58,7 +58,7 @@ const Coreteam = [
   {
     name: "Festus Ojesanmi",
     title: "Software Development Intern ",
-    img: Festus, 
+    img: Festus,
     linkedin: "https://www.linkedin.com/in/festusojesanmi/",
     scholar: "#"
   },
@@ -68,7 +68,7 @@ const CoreteamCard = ({ name, title, img, linkedin, scholar }) => (
   <Card>
     <CardContent style={{ textAlign: 'center' }}>
       <Avatar src={img} alt={name} style={{ width: 140, height: 140, margin: '0 auto' }} />
-      <Typography variant="h6" style={{ fontSize: '14px', fontWeight:'550', color:"#1164CA" }} gutterBottom>
+      <Typography variant="h6" style={{ fontSize: '14px', fontWeight: '550', color: "#1164CA" }} gutterBottom>
         {name}
       </Typography>
       <Typography variant="body2" color="textSecondary">
@@ -87,24 +87,24 @@ const CoreteamCard = ({ name, title, img, linkedin, scholar }) => (
 );
 
 const Coreteamsection = () => (
-  <Grid container spacing={4} style={{ padding: '10px', color:"#1164CA" }}>
+  <Grid container spacing={4} style={{ padding: '10px', color: "#1164CA" }}>
     <Grid item xs={12}>
-      <CoreteamCard 
-        name={Coreteam[1].name} 
-        title={Coreteam[1].title} 
-        img={Coreteam[1].img} 
-        linkedin={Coreteam[1].linkedin} 
-        scholar={Coreteam[1].scholar} 
+      <CoreteamCard
+        name={Coreteam[1].name}
+        title={Coreteam[1].title}
+        img={Coreteam[1].img}
+        linkedin={Coreteam[1].linkedin}
+        scholar={Coreteam[1].scholar}
       />
     </Grid>
     {Coreteam.slice(0, 1).concat(Coreteam.slice(2)).map((prof, index) => (
       <Grid item xs={6} sm={4} md={4} key={index}>
-        <CoreteamCard 
-          name={prof.name} 
-          title={prof.title} 
-          img={prof.img} 
-          linkedin={prof.linkedin} 
-          scholar={prof.scholar} 
+        <CoreteamCard
+          name={prof.name}
+          title={prof.title}
+          img={prof.img}
+          linkedin={prof.linkedin}
+          scholar={prof.scholar}
         />
       </Grid>
     ))}

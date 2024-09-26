@@ -32,7 +32,7 @@ function People() {
 
       <div className="divider-container">
         <hr className="line" />
-        <span className="text">Coinvestigators</span>
+        <span className="text">Co-Investigators</span>
         <hr className="line" />
       </div>
       <Coinvestigators />
@@ -42,7 +42,7 @@ function People() {
 
       <div className="divider-container">
         <hr className="line" />
-        <span className="text">Cocollaborators</span>
+        <span className="text">Collaborators</span>
         <hr className="line" />
       </div>
       <Cocollaborators />
@@ -60,68 +60,20 @@ function People() {
         </div>
 
         <div className="student-team-container">
-          <div className="student-team-member">
 
-            <p className="role">Dr. Obiseye Obiyemi</p>
-            <p className="name">Postdoctoral Fellow (2020-2021), <br /> Durban University of Technology,<br /> Durban, South Africa.</p>
-
-          </div>
-
-
-
-          <div className="student-team-member">
-
-            <p className="role">Akinrinmade Adekunle</p>
-            <p className="name">Ph.D in Computer Engineering <br />Completed (2023), Covenant University, <br />Ota, Nigeria</p>
-
-          </div>
-
-          <div className="student-team-member">
-
-            <p className="role">Funmilayo Moninuola</p>
-            <p className="name">Ph.D in ICE Completed (2023), <br /> Covenant University, Ota, Nigeria.</p>
-
-          </div>
-
-          <div className="student-team-member">
-
-            <p className="role">Temitope Takpor</p>
-            <p className="name">Ph.D in ICE Completed (2023), <br /> Covenant University, Ota, Nigeria.</p>
-
-          </div>
-
-          <div className="student-team-member">
-
-            <p className="role">Dr. Abdultaofeek Abayomi</p>
-            <p className="name">Mangosuthu University of Technology,<br /> Durban, South Africa</p>
-
-          </div>
-
-          <div className="student-team-member">
-
-            <p className="role">Dele Wasiu Alausa</p>
-            <p className="name">Ph.D Viva-Voce in Computer Engineering <br />Completed,  Covenant University, <br />Ota, Nigeria.</p>
-
-          </div>
-
-          <div className="student-team-member">
-
-            <p className="role">Adebiyi Adelakun</p>
-            <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
-
-          </div>
 
           <div className="student-team-member">
 
             <p className="role">Ayodele H. Ifijeh (FEDGEN Scholar)</p>
             <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
-
+            <p className="name">2020-2025</p>
           </div>
 
           <div className="student-team-member">
 
             <p className="role">Comfort O. Lawal (FEDGEN Scholar)</p>
             <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+            <p className="name">2020-2025</p>
 
           </div>
 
@@ -129,20 +81,21 @@ function People() {
 
             <p className="role">Omolola Ademola (FEDGEN Scholar)</p>
             <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+            <p className="name">2023-2027</p>
 
           </div>
 
           <div className="student-team-member">
-
             <p className="role">Comfort Some-fun (FEDGEN Scholar)</p>
             <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
-
+            <p className="name">2023-2027</p>
           </div>
 
           <div className="student-team-member">
 
             <p className="role">Gabriel Sobola (FEDGEN Scholar)</p>
             <p className="name">Ph.D in ICE Ongoing at Covenant <br /> University, Ota, Nigeria.</p>
+            <p className="name">2023-2027</p>
 
           </div>
 
@@ -150,6 +103,7 @@ function People() {
 
             <p className="role">Uche J. Nnaji(FEDGEN Scholar)</p>
             <p className="name">Ph.D in Computer Science <br /> Ongoing at Covenant University,<br /> Ota, Nigeria.</p>
+            <p className="name">2023-2027</p>
 
           </div>
 
@@ -168,20 +122,14 @@ function People() {
         </div>
 
         <div className="student-team-container">
-          <div className="student-team-member">
-            <p className="role">Engr. Boladele Akanle</p>
-            <p className="name">Lead System & Cloud Infrastructure Engineering</p>
-          </div>
+
 
           <div className="student-team-member">
             <p className="role">Mrs. Priscilla O. Ajayi</p>
             <p className="name">Lead Software and DevOps Engineering</p>
           </div>
 
-          <div className="student-team-member">
-            <p className="role">Engr. (Mrs.) Faith O. Sweetwilliams</p>
-            <p className="name">System & Cloud Infrastructure Engineer</p>
-          </div>
+
 
           <div className="student-team-member">
             <p className="role">Engr. Emmanuel Owolabi</p>
@@ -192,6 +140,21 @@ function People() {
             <p className="role">Dr. Ademola Adeyeye (MBBS)</p>
             <p className="name">Medical Advisor</p>
           </div>
+
+          <div className="student-team-member">
+            <p className="role">Engr. Oladipupo Olaleye</p>
+            <p className="name">Director of ICT, Living Faith Church Worldwide</p>
+          </div>
+
+
+          <div className="student-team-member">
+            <p className="role">Tolulope Romiluyi</p>
+            <p className="name">FEDGEN Cloud/HPC Consultant</p>
+          </div>
+
+
+
+
         </div>
       </div>
 
