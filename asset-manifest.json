@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fedgen-landing-page/static/css/main.f1e0a1eb.css",
-    "main.js": "/fedgen-landing-page/static/js/main.32852f12.js",
+    "main.js": "/fedgen-landing-page/static/js/main.91431cbd.js",
     "static/media/Takenga Claude Mbusa.png": "/fedgen-landing-page/static/media/Takenga Claude Mbusa.bcb4b9c71ecc79ff3b0a.png",
     "static/media/Dr_Badejo.jpeg": "/fedgen-landing-page/static/media/Dr_Badejo.2fb4eddb4a5f421b669e.jpeg",
     "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.b1b0ca08358db0fda00a.png",
@@ -25,7 +25,6 @@
     "static/media/Fedgen-HealthEduApp.jpeg": "/fedgen-landing-page/static/media/Fedgen-HealthEduApp.e1d1d97a2c977867d3d7.jpeg",
     "static/media/ugb-logo.png": "/fedgen-landing-page/static/media/ugb-logo.8e53d1239289e481bd36.png",
     "static/media/Fegden-monitor.png": "/fedgen-landing-page/static/media/Fegden-monitor.7e416803c8999740630b.png",
-    "static/media/FEDGEN Datahub.png": "/fedgen-landing-page/static/media/FEDGEN Datahub.8ebd7a8d1a98f4d92fc4.png",
     "static/media/dstn-logo.png": "/fedgen-landing-page/static/media/dstn-logo.742ff599b8c5ec7e9956.png",
     "static/media/World-bank-logo.png": "/fedgen-landing-page/static/media/World-bank-logo.1aeeb8dc388f9a45d39d.png",
     "static/media/FEDSEC.png": "/fedgen-landing-page/static/media/FEDSEC.011bcae11d4b553a7a9f.png",
@@ -52,13 +51,14 @@
     "static/media/google-logo.png": "/fedgen-landing-page/static/media/google-logo.9814c37bc9103b80f05d.png",
     "static/media/Capicace-logo.png": "/fedgen-landing-page/static/media/Capicace-logo.a8050b7cb12a09d0f027.png",
     "static/media/innia-logo.png": "/fedgen-landing-page/static/media/innia-logo.dacc17fbd2353bd07cc4.png",
+    "static/media/FEDGEN Datahub.png": "/fedgen-landing-page/static/media/FEDGEN Datahub.cc5f02f2bb065eac69fa.png",
     "static/media/EDGE-AI.png": "/fedgen-landing-page/static/media/EDGE-AI.7bccb30b44e27ab941f0.png",
     "index.html": "/fedgen-landing-page/index.html",
     "main.f1e0a1eb.css.map": "/fedgen-landing-page/static/css/main.f1e0a1eb.css.map",
-    "main.32852f12.js.map": "/fedgen-landing-page/static/js/main.32852f12.js.map"
+    "main.91431cbd.js.map": "/fedgen-landing-page/static/js/main.91431cbd.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e0a1eb.css",
-    "static/js/main.32852f12.js"
+    "static/js/main.91431cbd.js"
   ]
 }
