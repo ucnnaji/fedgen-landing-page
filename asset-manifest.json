@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fedgen-landing-page/static/css/main.f1e0a1eb.css",
-    "main.js": "/fedgen-landing-page/static/js/main.39c2fdb6.js",
+    "main.js": "/fedgen-landing-page/static/js/main.d18184fc.js",
     "static/media/Takenga Claude Mbusa.png": "/fedgen-landing-page/static/media/Takenga Claude Mbusa.bcb4b9c71ecc79ff3b0a.png",
     "static/media/Dr_Badejo.jpeg": "/fedgen-landing-page/static/media/Dr_Badejo.2fb4eddb4a5f421b669e.jpeg",
     "static/media/Container-image.png": "/fedgen-landing-page/static/media/Container-image.b1b0ca08358db0fda00a.png",
@@ -15,8 +15,8 @@
     "static/media/dr-adeshina.jpg": "/fedgen-landing-page/static/media/dr-adeshina.35a35d76ea7d32b1a715.jpg",
     "static/media/Home-image.png": "/fedgen-landing-page/static/media/Home-image.e66fa3ca71a07c8c2018.png",
     "static/media/gb.png": "/fedgen-landing-page/static/media/gb.4c7acbe97ce4f789bb19.png",
+    "static/media/group7.jpg": "/fedgen-landing-page/static/media/group7.404844aedf95e5218664.jpg",
     "static/media/group1.png": "/fedgen-landing-page/static/media/group1.c74cd21dbde4f8972e49.png",
-    "static/media/group7.jpg": "/fedgen-landing-page/static/media/group7.2cdcd680302316b22db1.jpg",
     "static/media/ulpgl.png": "/fedgen-landing-page/static/media/ulpgl.589697e86dd0f78f486c.png",
     "static/media/landmark-logo.png": "/fedgen-landing-page/static/media/landmark-logo.d4a006c4de4aba4581bb.png",
     "static/media/Monthly-Research-August.jpg": "/fedgen-landing-page/static/media/Monthly-Research-August.759ffe7aca3e5d5fb5a1.jpg",
@@ -55,10 +55,10 @@
     "static/media/EDGE-AI.png": "/fedgen-landing-page/static/media/EDGE-AI.7bccb30b44e27ab941f0.png",
     "index.html": "/fedgen-landing-page/index.html",
     "main.f1e0a1eb.css.map": "/fedgen-landing-page/static/css/main.f1e0a1eb.css.map",
-    "main.39c2fdb6.js.map": "/fedgen-landing-page/static/js/main.39c2fdb6.js.map"
+    "main.d18184fc.js.map": "/fedgen-landing-page/static/js/main.d18184fc.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e0a1eb.css",
-    "static/js/main.39c2fdb6.js"
+    "static/js/main.d18184fc.js"
   ]
 }
