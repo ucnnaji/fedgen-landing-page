@@ -124,10 +124,6 @@ function People() {
         <div className="student-team-container">
 
 
-          <div className="student-team-member">
-            <p className="role">Mrs. Priscilla O. Ajayi</p>
-            <p className="name">Lead Software and DevOps Engineering</p>
-          </div>
 
 
 
