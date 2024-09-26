@@ -3,17 +3,25 @@ import "../App.css";
 import containerImage from './Container-image.png';
 
 function UpcomingEvents() {
+
+
+    const Events = [
+        { title: '3RD HIGH PERFORMANCE COMPUTING WORKSHOPS' },
+        { title: 'FEDGEN BOOTCAMP 3.0.' },
+        { title: 'MONTHLY ADVANCED RESEARCH TUTORIALS' },
+
+
+    ];
    
 
-    const projects = [
-        {
-            title: 'FEDGEN Health EduApp',
-            image: 'Monthly-Research-August.jpg',
-            link: 'https://covenantuniversity-edu-ng.zoom.us/meeting/register/tZYoc-CrqT8rHdRpv43l-TupAiite4dtAW7h',
-            description: 'FEDGEN Health EduApp'
-        },
-    ];
-
+    /* const projects = [
+    {
+        title: 'FEDGEN Health EduApp',
+        image: 'Monthly-Research-August.jpg',
+        link: 'https://covenantuniversity-edu-ng.zoom.us/meeting/register/tZYoc-CrqT8rHdRpv43l-TupAiite4dtAW7h',
+        description: 'FEDGEN Health EduApp'
+    },
+]; */
    
 
     return (
@@ -28,7 +36,21 @@ function UpcomingEvents() {
                 <h2>UPCOMING EVENTS</h2>
             </div>
 
+
+            <div className="related-works-section">
+                <h2>Upcoming Workshops, Bootcamps, Tutorial Meetings</h2>
+                <div className="works-container">
+                    {Events.map((Events, index) => (
+                        <div key={index} className="work-card">
+                            <p>{Events.title}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+
             <div className="Event-events-container">
+                {/*
                 {projects.map((project, index) => (
                     <div key={index} className="Event-project-card">
                         <img
@@ -43,6 +65,7 @@ function UpcomingEvents() {
                         </a>
                     </div>
                 ))}
+                    */}
             </div>
 
             

@@ -6,10 +6,10 @@ import containerImage from './Container-image.png';
 function Project() {
     const projects = [
         { title: 'FEDGEN PHIS', image: 'Fedgen-HealthEduApp.jpeg', link: 'https://fedgen.net/phis', description: 'FEDGEN public health information system' },
-        { title: 'FEDGEN DataHub', image: 'FEDGEN Datahub.png', link: 'http://localhost:3000/fedgen-landing-page#/Datahub', description: 'FEDGEN DataHub' },
+        { title: 'FEDGEN DataHub', image: 'FEDGEN Datahub.png', description: 'FEDGEN DataHub' },
         { title: 'FEDGEN CodingHub', image: 'FEDGEN-Codinghub.png', link: 'http://codinghub.fedgen.net', description: 'FEDGEN CodingHub' },
         { title: 'FEDARGOS', image: 'Fegden-monitor.png', link: 'http://monitor.fedgen.net', description: 'FEDGEN Monitor' },
-        { title: 'FEDSEC', image: 'FEDSEC.png', link: 'http://localhost:3000/fedgen-landing-page#/FedSec', description: 'FEDSEC' },
+        { title: 'SEC-FEDGEN', image: 'FEDSEC.png', link: 'http://localhost:3000/fedgen-landing-page#/FedSec', description: 'FEDSEC' },
         { title: 'Cognitive CloudRAN for TVWS/5G/6G', image: 'Cognitive CloudRAN.png', link: 'http://localhost:3000/fedgen-landing-page#/CloudRAN', description: 'CloudRAN' },
         { title: 'EdgeAI-IoT for Health Applications', image: 'EDGE-AI.png', link: 'http://localhost:3000/fedgen-landing-page#/EdgeAI', description: 'CloudRAN' },
     ];
