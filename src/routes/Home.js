@@ -1,8 +1,8 @@
 import React from 'react';
 
 import LeadershipCloud from "../LeadershipCloud.jsx";
-import containerImage from './Home-image.png';
-import database from './database.png';
+import containerImage from '../images/Home-image.png';
+import database from '../images/database.png';
 import { TbCpu } from "react-icons/tb";
 import { BsCpuFill } from "react-icons/bs";
 import { CiServer } from "react-icons/ci";
@@ -13,23 +13,23 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 
-import group6 from './group6.jpeg';
-import group5 from './group5.jpeg';
-import group4 from './group4.jpeg';
-import group3 from './group3.png';
-import group2 from './group2.jpeg';
-import group1 from './group1.png';
-import group7 from './group7.jpg';
+import Sweets from '../images/group1.png';
+import Bola from '../images/group3.png';
+import John from '../images/group6.jpeg';
+import Festus from '../images/group5.jpeg';
+import Ajayi from '../images/group4.jpeg';
+import Adetiba from '../images/group2.jpeg';
+import Uche from '../images/group7.jpg';
 
-import aspmirlogo from './aspmir-logo.png';
-import capiclogo from './capic-logo.png';
-import covenantlogo from './covenant-logo.png';
-import googlelogo from './google-logo.png';
-import worldbanklogo from './World-bank-logo.png';
-import innaialogo from './innia-logo.png';
-import dstnlogo from './dstn-logo.png';
-import cealogo from './cea-logo.png';
-import oafdlogo from './oafd-logo.png';
+import aspmirlogo from '../images/aspmir-logo.png';
+import capiclogo from '../images/capic-logo.png';
+import covenantlogo from '../images/covenant-logo.png';
+import googlelogo from '../images/google-logo.png';
+import worldbanklogo from '../images/World-bank-logo.png';
+import innaialogo from '../images/innia-logo.png';
+import dstnlogo from '../images/dstn-logo.png';
+import cealogo from '../images/cea-logo.png';
+import oafdlogo from '../images/oafd-logo.png';
 import { alignProperty } from '@mui/material/styles/cssUtils';
 
 

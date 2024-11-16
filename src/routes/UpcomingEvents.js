@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../App.css";
-import containerImage from './Container-image.png';
+import containerImage from '../images/Container-image.png';
 
 function UpcomingEvents() {
 
@@ -12,16 +12,6 @@ function UpcomingEvents() {
 
 
     ];
-   
-
-    /* const projects = [
-    {
-        title: 'FEDGEN Health EduApp',
-        image: 'Monthly-Research-August.jpg',
-        link: 'https://covenantuniversity-edu-ng.zoom.us/meeting/register/tZYoc-CrqT8rHdRpv43l-TupAiite4dtAW7h',
-        description: 'FEDGEN Health EduApp'
-    },
-]; */
    
 
     return (

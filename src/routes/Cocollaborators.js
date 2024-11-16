@@ -4,19 +4,19 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SchoolIcon from '@mui/icons-material/School'; // Using this as a placeholder for Google Scholar icon
 
 // Images
-import raymond from './Dr-Raymond.jpg';
-import ayokunle from './Dr_ayokunle.jpeg';
-import abdultaofeek from './Dr_Abdultaofeek Abayomi.jpg';
-import badejo from './Dr_Badejo.jpeg';
-import ejidokun from './dr-ejidokun.jpeg';
-import thakur from './Dr-Thakur1.jpeg';
-import adeshina from './dr-adeshina.jpg';
-import popoola from './dr-popoola.jpeg';
-import subusisoMoyo from './prof-subusiso-moyo.jpeg';
-import maissaMbaye from './prof-maissa-mbaye.jpeg';
-import dameDiongue from './prof-dame-diong.jpeg';
-import takengaClaude from './Takenga Claude Mbusa.png';
-import bankeOgunlana from './Banke Ogunlana Passport.jpg';
+import raymond from '../images/Dr-Raymond.jpg';
+import ayokunle from '../images/Dr_ayokunle.jpeg';
+import abdultaofeek from '../images/Dr_Abdultaofeek Abayomi.jpg';
+import badejo from '../images/Dr_Badejo.jpeg';
+import ejidokun from '../images/dr-ejidokun.jpeg';
+import thakur from '../images/Dr-Thakur1.jpeg';
+import adeshina from '../images/dr-adeshina.jpg';
+import popoola from '../images/dr-popoola.jpeg';
+import subusisoMoyo from '../images/prof-subusiso-moyo.jpeg';
+import maissaMbaye from '../images/prof-maissa-mbaye.jpeg';
+import dameDiongue from '../images/prof-dame-diong.jpeg';
+import takengaClaude from '../images/Takenga Claude Mbusa.png';
+import bankeOgunlana from '../images/Banke Ogunlana Passport.jpg';
 
 // Team data array
 const CocollaboratorsTeam = [

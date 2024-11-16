@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import containerImage from './Container-image.png';
+import containerImage from '../images/Container-image.png';
 
 function CloudRAN() {
     const works = [

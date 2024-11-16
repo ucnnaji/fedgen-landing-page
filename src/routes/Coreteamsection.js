@@ -3,13 +3,13 @@ import { Grid, Card, CardContent, Typography, Avatar, IconButton } from '@mui/ma
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SchoolIcon from '@mui/icons-material/School'; // Use as Google Scholar icon (or any academic icon)
 
-import Sweets from './group1.png';
-import Bola from './group3.png';
-import John from './group6.jpeg';
-import Festus from './group5.jpeg';
-import Ajayi from './group4.jpeg';
-import Adetiba from './group2.jpeg';
-import Uche from './group7.jpg';
+import Sweets from '../images/group1.png';
+import Bola from '../images/group3.png';
+import John from '../images/group6.jpeg';
+import Festus from '../images/group5.jpeg';
+import Ajayi from '../images/group4.jpeg';
+import Adetiba from '../images/group2.jpeg';
+import Uche from '../images/group7.jpg';
 
 const Coreteam = [
   {

@@ -3,26 +3,28 @@ import { Grid, Card, CardContent, Typography, Avatar, IconButton } from '@mui/ma
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SchoolIcon from '@mui/icons-material/School'; // Use as Google Scholar icon (or any academic icon)
 
-import raymond from './Dr-Raymond.jpg';
-import ayokunle from './Dr_ayokunle.jpeg';
-import abdultaofeek from './Dr_Abdultaofeek Abayomi.jpg';
-import badejo from './Dr_Badejo.jpeg';
-import ejidokun from './dr-ejidokun.jpeg';
-import thakur from './Dr-Thakur1.jpeg';
-import adeshina from './dr-adeshina.jpg';
-import popoola from './dr-popoola.jpeg';
-import subusisoMoyo from './prof-subusiso-moyo.jpeg';
-import maissaMbaye from './prof-maissa-mbaye.jpeg';
-import dameDiongue from './prof-dame-diong.jpeg';
-import ayodejiAdegoke from './Ayodeji Adegoke.jpg';
-import takengaClaude from './Takenga Claude Mbusa.png';
-import bankeOgunlana from './Banke Ogunlana Passport.jpg';
+import raymond from '../images/Dr-Raymond.jpg';
+import ayokunle from '../images/Dr_ayokunle.jpeg';
+import abdultaofeek from '../images/Dr_Abdultaofeek Abayomi.jpg';
+import badejo from '../images/Dr_Badejo.jpeg';
+import ejidokun from '../images/dr-ejidokun.jpeg';
+import thakur from '../images/Dr-Thakur1.jpeg';
+import adeshina from '../images/dr-adeshina.jpg';
+import popoola from '../images/dr-popoola.jpeg';
+import subusisoMoyo from '../images/prof-subusiso-moyo.jpeg';
+import maissaMbaye from '../images/prof-maissa-mbaye.jpeg';
+import dameDiongue from '../images/prof-dame-diong.jpeg';
+import ayodejiAdegoke from '../images/Ayodeji Adegoke.jpg';
+import takengaClaude from '../images/Takenga Claude Mbusa.png';
+import bankeOgunlana from '../images/Banke Ogunlana Passport.jpg';
 
-import oshin from './Dr Osin.jpg';
-import idowu from './DR.OLABODE-IDOWU.jpeg';
-import funmi from './dr-funmilayo-sijuade.jpeg';
-import obiyemi from './Obiyemi Obiseye.jpg';
-import temi from './dr-temitope-oluwatosin.jpeg';
+import oshin from '../images/Dr Osin.jpg';
+import idowu from '../images/DR.OLABODE-IDOWU.jpeg';
+import funmi from '../images/dr-funmilayo-sijuade.jpeg';
+import obiyemi from '../images/Obiyemi Obiseye.jpg';
+import temi from '../images/dr-temitope-oluwatosin.jpeg';
+
+
 
 const Investigatorteam = [
   {

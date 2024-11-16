@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import mainLogo from '../src/fedgen-logo.png';
-import nextlogo from '../src/routes/Capicace-logo.png';
+import mainLogo from './images/fedgen-logo.png';
+import nextlogo from './images/Capicace-logo.png';
 
 import {
   createBrowserRouter,

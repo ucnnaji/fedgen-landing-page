@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import containerImage from './Container-image.png';
+import containerImage from '../images/Container-image.png';
 import ContactGrid from './ContactGrid'; // Import the ContactGrid component
 import ProfileCard from './ProfileCard';
 import Coreteamsection from './Coreteamsection';
