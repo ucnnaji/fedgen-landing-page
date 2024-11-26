@@ -6,9 +6,17 @@ import afeBabalolaLogo from './images/Afe.png';
 import ulpglCongoLogo from './images/ulpgl.png';
 import gastonBergerLogo from './images/gb.png';
 import grandBassamLogo from './images/ugb-logo.png';
+import CULogo from './images/covenant-logo.png';
+
 
 function Leadership() {
   const leadershipData = [
+    {
+      university: 'Covenant University',
+      color: '#A020F0',
+      logo: CULogo, 
+    },
+
     {
       university: 'Landmark University',
       color: '#008000',

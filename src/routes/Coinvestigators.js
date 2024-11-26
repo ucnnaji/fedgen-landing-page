@@ -51,14 +51,14 @@ const Investigatorteam = [
   {
     name: "Dr. Temitope Oluwatosin Takpor",
     title: "Covenant University, Ota, Ogun State, Nigeria",
-    img: obiyemi,
+    img: temi,
     linkedin: "#",
     scholar: "#"
   },
   {
     name: "Dr. Obiseye Obiyemi",
     title: "Durban University of Technology Durban, South Africa ",
-    img: temi,
+    img: obiyemi,
     linkedin: "https://www.linkedin.com/in/obiseye-obiyemi-b2b2706a/",
     scholar: "https://scholar.google.com/citations?hl=en&user=IqEKNhAAAAAJ",
   },
